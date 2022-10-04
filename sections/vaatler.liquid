@@ -1,0 +1,264 @@
+{{ 'benefits.css' | asset_url | stylesheet_tag }}
+<style>
+  .module--homepage-principles {
+    margin-top: 45px;
+  }
+  @media screen and (max-width: 990px) {
+    .grid__item--icon {
+      width: 33%;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+      margin-top: 20px;
+    }
+    #module--homepage-principles .custom_seperator {
+      margin-inline: 140px !important;
+    }
+  }
+  #module--homepage-principles .headline {
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+    text-align: center;
+  }
+  #module--homepage-principles .custom_seperator {
+    width: 50px;
+    height: 0;
+    margin-inline: 515px;
+    margin-top: 10px;
+    border: none;
+    border-top: 3px solid #E7AD99;
+  }
+  .heading3 {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 24px;
+    font-style: normal;
+    text-transform: uppercase;
+  }
+  .grid__item--banner .heading3 {
+    margin-top: 35px !important;
+    padding-top: 30px;
+  }
+  .grid__item--banner{
+    text-align:center;
+  }
+  .heading3:after{ 
+      content: "";
+      display: inline-block;
+      width: 50px;
+      padding-top: 3px;
+      border-bottom:3px solid;
+      border-color:#E7AD99;
+      margin:0 auto;
+    }
+</style>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    let getParentDiv = document.getElementsByClassName("module--homepage-principles");
+    for (var i = 0; i < getParentDiv.length; i++) {
+      let getSubGrid = getParentDiv[i].getElementsByClassName("grid__item--icon");
+      if (getSubGrid.length <= 4) {
+        if (screen.width < 990) {
+          for (var k = 0; k < getSubGrid.length; k++) {
+            getSubGrid[k].style.width = "50%";
+          }
+        }
+      }
+    }
+  });
+</script>
+<div class="page-width module module--fullbleed module--homepage-principles" id="module--homepage-principles">
+  <div class="wrapper" style="background: #fafafa;">
+    <div class="grid--flex">
+      <div class="grid__item--banner">
+        <h3 class="heading3 module-title" style="margin-top:15px!important;margin-bottom:0px!important;">
+          <center>{{section.settings.maintitle }}</center>
+        </h3>
+      </div>
+    </div>
+    <div class="grid--flex grid--principle-icons medium-up--show-flex" style="margin-bottom:10px;padding-bottom:25px;">
+      {% if section.settings.img1 != blank %}
+
+        <div class="grid__item--icon xlarge--one-quarter">
+          <img data-src="{{section.settings.img1 | img_url: "master" }} " class=" lazyloaded" src="{{section.settings.img1 | img_url: "master" }}" alt="" width="40" height="40">
+          <p class="headline">{{section.settings.title1}}
+          </p>
+          <p class="caption">{{section.settings.desc1}}
+          </p>
+        </div>
+      {% endif %}
+
+      {% if section.settings.img2 != blank %}
+
+        <div class="grid__item--icon">
+          <img data-src="{{section.settings.img2 | img_url: "master" }} " class=" lazyloaded" src="{{section.settings.img2 | img_url: "master" }}" alt="" width="40" height="40">
+          <p class="headline">{{section.settings.title2}}
+          </p>
+          <p class="caption ">{{section.settings.desc2}}
+          </p>
+        </div>
+      {% endif %}
+
+      {% if section.settings.img3 != blank %}
+
+        <div class="grid__item--icon">
+          <img data-src="{{section.settings.img3 | img_url: "master" }} " class=" lazyloaded" src="{{section.settings.img3 | img_url: "master" }}" alt="" width="40" height="40">
+          <p class="headline">{{section.settings.title3}}
+          </p>
+          <p class="caption ">{{section.settings.desc3}}
+          </p>
+        </div>
+      {% endif %}
+
+      {% if section.settings.img4 != blank %}
+
+        <div class="grid__item--icon">
+          <img data-src="{{section.settings.img4 | img_url: "master" }} " class=" lazyloaded" src="{{section.settings.img4 | img_url: "master" }}" alt="" width="40" height="40">
+          <p class="headline">{{section.settings.title4}}
+          </p>
+          <p class="caption ">{{section.settings.desc4}}
+          </p>
+        </div>
+      {% endif %}
+
+      {% if section.settings.img5 != blank %}
+
+        <div class="grid__item--icon">
+          <img data-src="{{section.settings.img5 | img_url: "master" }} " class=" lazyloaded" src="{{section.settings.img5 | img_url: "master" }}" alt="" width="40" height="40">
+          <p class="headline">{{section.settings.title5}}
+          </p>
+          <p class="caption ">{{section.settings.desc5}}
+          </p>
+        </div>
+      {% endif %}
+
+      {% if section.settings.img6 != blank %}
+        <div class="grid__item--icon">
+          <img data-src="{{section.settings.img6 | img_url: "master" }} " class=" lazyloaded" src="{{section.settings.img6 | img_url: "master" }}" alt="" width="40" height="40">
+          <p class="headline">{{section.settings.title6}}
+          </p>
+          <p class="caption ">{{section.settings.desc6}}
+          </p>
+        </div>
+
+      {% endif %}
+    </div>
+    <!-- /grid -->
+
+  </div>
+  <!-- /wrapper -->
+</div>
+
+
+
+{% schema %}
+  {
+    "name": "Benefits",
+    "class": "benefits",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Benefits"
+      },
+      {
+        "type": "text",
+        "id": "maintitle",
+        "default": "Our Promises",
+        "label": "Title of Widget"
+      },
+      {
+        "type": "image_picker",
+        "id": "img1",
+        "label": "IMG"
+      },
+      {
+        "type": "text",
+        "id": "title1",
+        "default": "Title 1",
+        "label": "Title 1"
+      }, {
+        "type": "text",
+        "id": "desc1",
+        "default": "Desc 1",
+        "label": "Desc 1"
+      }, {
+        "type": "image_picker",
+        "id": "img2",
+        "label": "IMG"
+      }, {
+        "type": "text",
+        "id": "title2",
+        "default": "Title 2",
+        "label": "Title 2"
+      }, {
+        "type": "text",
+        "id": "desc2",
+        "default": "Desc 2",
+        "label": "Desc 2"
+      }, {
+        "type": "image_picker",
+        "id": "img3",
+        "label": "IMG"
+      }, {
+        "type": "text",
+        "id": "title3",
+        "default": "Title 3",
+        "label": "Title 3"
+      }, {
+        "type": "text",
+        "id": "desc3",
+        "default": "Desc 3",
+        "label": "Desc 3"
+      }, {
+        "type": "image_picker",
+        "id": "img4",
+        "label": "IMG"
+      }, {
+        "type": "text",
+        "id": "title4",
+        "default": "Title 4",
+        "label": "Title 4"
+      }, {
+        "type": "text",
+        "id": "desc4",
+        "default": "Desc 4",
+        "label": "Desc 4"
+      }, {
+        "type": "image_picker",
+        "id": "img5",
+        "label": "IMG"
+      }, {
+        "type": "text",
+        "id": "title5",
+        "default": "Title 5",
+        "label": "Title 5"
+      }, {
+        "type": "text",
+        "id": "desc5",
+        "default": "Desc 5",
+        "label": "Desc 5"
+      }, {
+        "type": "image_picker",
+        "id": "img6",
+        "label": "IMG"
+      }, {
+        "type": "text",
+        "id": "title6",
+        "default": "Title 6",
+        "label": "Title 6"
+      }, {
+        "type": "text",
+        "id": "desc6",
+        "default": "Desc 6",
+        "label": "Desc 6"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Vaatler",
+        "category": "text"
+      }
+    ]
+  }
+{% endschema %}

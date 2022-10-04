@@ -1,0 +1,310 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true
+      }
+    },
+    "16427578771a345f39": {
+      "type": "multicolumn",
+      "blocks": {
+        "1642757877c27a77eb-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Post_Shower.jpg",
+            "title": "",
+            "text": "<p>Clean lines, no distractions, highly absorbent and durable.<\/p>",
+            "link_label": "Post Shower & Quick Dry",
+            "link": "shopify:\/\/collections\/post-shower-quick-dry"
+          }
+        },
+        "1642757877c27a77eb-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bathrobe_for_Men_I.jpg",
+            "title": "",
+            "text": "<p>Perfect match for a dressing gown to just lounge at home all day.<\/p>",
+            "link_label": "Mid-Day & All-Day Lounge",
+            "link": "shopify:\/\/collections\/mid-day-all-day-lounge-robes"
+          }
+        },
+        "1642757877c27a77eb-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grey_Bathrobe_for_Women_I.jpg",
+            "title": "",
+            "text": "<p>You, your robe, and your face mask. All you need is that simple.<\/p>",
+            "link_label": "Spa Time at Home",
+            "link": "shopify:\/\/collections\/spa-time-at-home-robes"
+          }
+        }
+      },
+      "block_order": [
+        "1642757877c27a77eb-0",
+        "1642757877c27a77eb-1",
+        "1642757877c27a77eb-2"
+      ],
+      "settings": {
+        "title": "How do you like your bathrobe?",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "Shop All Bathrobes",
+        "button_link": "shopify:\/\/collections\/bathrobes",
+        "swipe_on_mobile": false
+      }
+    },
+    "1642758456520ccea5": {
+      "type": "multicolumn",
+      "blocks": {
+        "1642758456b33bb19b-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Soft_and_Classic_II.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Classic & Everyday Robes",
+            "link": "shopify:\/\/collections\/soft-classic-robes"
+          }
+        },
+        "1642758456b33bb19b-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ribbed_Cotton_Robe.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Cosy & Plush Robes",
+            "link": "shopify:\/\/collections\/cosy-plush-robes"
+          }
+        },
+        "1642758456b33bb19b-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Muslin_Robe.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Pastel Lovers & Lightweight Robes",
+            "link": "shopify:\/\/collections\/all-day-lightweight-robes"
+          }
+        },
+        "97cfab18-6ece-4c53-ae75-77e3f6d86152": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hooded_Cotton_Robe.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Trend & Textured Robes",
+            "link": "shopify:\/\/collections\/stylish-and-warm-robes"
+          }
+        }
+      },
+      "block_order": [
+        "1642758456b33bb19b-0",
+        "1642758456b33bb19b-1",
+        "1642758456b33bb19b-2",
+        "97cfab18-6ece-4c53-ae75-77e3f6d86152"
+      ],
+      "settings": {
+        "title": "Shop by Feel",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 16,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "collapse_on_larger_devices": false
+      }
+    },
+    "1642775523057df591": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "1642775523d78a90ab-0": {
+          "type": "heading",
+          "settings": {
+            "heading": ""
+          }
+        },
+        "1642775523d78a90ab-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Choose by Colour<\/strong><\/p><p>Vibrant colours to dopamine your mood or pastel and earthy tones to enrich your calmness. Or maybe go with a classic white and grey for a seasonless and timeless choice.<\/p><p><\/p><p>Discover your robe options now.<\/p>"
+          }
+        },
+        "1642775523d78a90ab-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Robes by Colour",
+            "button_link": "shopify:\/\/collections\/bathrobes"
+          }
+        }
+      },
+      "block_order": [
+        "1642775523d78a90ab-0",
+        "1642775523d78a90ab-1",
+        "1642775523d78a90ab-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Colourful_Muslin_Robes.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "16427774622fc5950f": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured collection",
+        "title1": "Title 1",
+        "desc1": "Desc 1",
+        "title2": "Title 2",
+        "desc2": "Desc 2",
+        "title3": "Title 3",
+        "desc3": "Desc 3",
+        "title4": "Title 4",
+        "desc4": "Desc 4",
+        "title5": "Title 5",
+        "desc5": "Desc 5",
+        "title6": "Title 6",
+        "desc6": "Desc 6",
+        "title7": "Title 7",
+        "desc7": "Desc 7",
+        "collection": "",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "16427777511c973299": {
+      "type": "multicolumn",
+      "blocks": {
+        "1642777751845d4222-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Colourful_Muslin_Robes.jpg",
+            "title": "",
+            "text": "<p>Vibrant colours to dopamine your mood or pastel and earthy tones to enrich your calmness. Or maybe go with a classic white and grey for a seasonless and timeless choice.<\/p><p>Discover your robe options now.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1642777751845d4222-1": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1642777751845d4222-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1642777751845d4222-0",
+        "1642777751845d4222-1",
+        "1642777751845d4222-2"
+      ],
+      "settings": {
+        "title": "Choose by Colour",
+        "image_width": "full",
+        "image_ratio": "square",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "Robes by Colour",
+        "button_link": "shopify:\/\/collections\/bathrobes",
+        "swipe_on_mobile": false
+      }
+    },
+    "1642963005255874f6": {
+      "type": "image-banner",
+      "blocks": {
+        "1642963005f87f0f45-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "medium"
+          }
+        },
+        "1642963005f87f0f45-1": {
+          "type": "text",
+          "settings": {
+            "text": "Vibrant colours to dopamine your mood or pastel and earthy tones to enrich your calmness. Or maybe go with a classic white and grey for a seasonless and timeless choice.  Discover your robe options now."
+          }
+        },
+        "1642963005f87f0f45-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Shop by Colour",
+            "button_link_2": "shopify:\/\/collections\/bathrobes",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1642963005f87f0f45-0",
+        "1642963005f87f0f45-1",
+        "1642963005f87f0f45-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1600-1050.jpg",
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": false,
+        "image_overlay_opacity": 40,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "16427578771a345f39",
+    "1642758456520ccea5",
+    "product-grid",
+    "1642775523057df591",
+    "16427774622fc5950f",
+    "16427777511c973299",
+    "1642963005255874f6"
+  ]
+}

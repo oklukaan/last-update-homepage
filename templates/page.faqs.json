@@ -1,0 +1,251 @@
+{
+  "sections": {
+    "main": {
+      "type": "faqs",
+      "blocks": {
+        "d437f9cf-e3ac-441d-98da-9aff5f7c5437": {
+          "type": "image",
+          "settings": {
+            "title": "PRODUCTS",
+            "desc": ""
+          }
+        },
+        "bc1ee80b-6b1e-4ea9-9a5f-8ee9cf500c65": {
+          "type": "image",
+          "settings": {
+            "title": "What is the difference between Percale and Sateen?",
+            "desc": "Even though both our percale and sateen provide superior sleeping experience, they have their differences. <br><br>\nPercale uses a one-over-one-under weave which creates percale’s  matte finish and crisp, cool feel that improves with every wash. Percale has superior durability and yet it is lightweight and breathable. So, if you are a hot sleeper, percale is the perfect choice for you. <br><br>\nSateen uses one-yarn-under and three-yarn-over weave, so it exposes more thread surface, giving Sateen a silky feel and luxurious sheen. Naturally wrinkle-resistant, Sateen is more tightly woven and therefore typically heavier in weight than Percale, and more likely to trap heat. So, if you tend to get cold during the night, you might feel closer to sateen. <br><br>\nApart from personal choices, you can also change your fabric preference based on the season, so we recommend you to have at least one set of each."
+          }
+        },
+        "d1fe05b7-22aa-4116-a9eb-0036dbb05ba5": {
+          "type": "image",
+          "settings": {
+            "title": "Are your products organic? What certificates do you have?",
+            "desc": "Our products are not organic but only because organic fabric does not necessarily mean that it is toxic-free and it is high quality. We are at peace knowing that you will be enjoying our products for long years safely.<br>What we care about the most are your health and security, that’s why what we work for the most is being able to deliver you toxic-free, chemicals-free products. We have ‎an OEKO-TEX® Standard 100 certificate for all of our products to guarantee."
+          }
+        },
+        "c775de8d-56fe-45df-a911-d4a9c5d6d71d": {
+          "type": "image",
+          "settings": {
+            "title": "What is the thread count of your beddings?",
+            "desc": "You can find the thread counts for each of our bedding products in the product descriptions.  Although our bedding products are manufactured using fabrics with  high thread counts, we truly value quality over quantity, and we consider that thread count is not a good way to measure how good a bedding product is. This is exactly why we focus on delivering durable yet comfortable and toxic-free products with ‎OEKO-TEX® Standard 100 certification and 100% long fibre quality Turkish cotton. <br>Instead of threads, we like to count your uninterrupted sleeps."
+          }
+        },
+        "2447d190-80bc-4afc-8494-7f897b0f3e01": {
+          "type": "image",
+          "settings": {
+            "title": "How deep are the fitted sheets?",
+            "desc": "The depth of our fitted sheets is 30 cm."
+          }
+        },
+        "eab523a9-edf7-457f-83a0-fc0263538065": {
+          "type": "image",
+          "settings": {
+            "title": "How should I care for my bedding and towels?",
+            "desc": "For machine wash, we recommend you listen to Mother Earth, save energy and wash at 30 degrees even it is suitable for 40 degrees. <br>If you will use tumble dry and iron, low heat is recommended. Try to wash with similar products in terms of fabric type and colour."
+          }
+        },
+        "6f81756e-19c1-4fef-8049-8f0b9ccde978": {
+          "type": "image",
+          "settings": {
+            "title": "Why should I buy bundles?",
+            "desc": "We created preset bundles so that you can find easily what bedding products you need for a good night’s sleep and also enabled you to create your own bundle. <br>By buying bundles, you will always get further discounts."
+          }
+        },
+        "d449aeff-6791-4a97-ab6e-53bf209da42b": {
+          "type": "image",
+          "settings": {
+            "title": "ORDERS",
+            "desc": ""
+          }
+        },
+        "22d47812-ee8b-4b9f-878d-deaa81f3556c": {
+          "type": "image",
+          "settings": {
+            "title": "Which types of payments do you accept?",
+            "desc": "We accept all major credit and debit cards, including PayPal & Klarna. <br>Please let us know at hello@ocoza.com if there is a payment method you’d like to use, and we will do our best to include it at our checkout in the future."
+          }
+        },
+        "c473cc65-24b1-4493-9b62-9a2ebd7145b4": {
+          "type": "image",
+          "settings": {
+            "title": "Will there be additional VAT or duty charges upon receiving my parcel?",
+            "desc": "No, the price on our website is the final cost to you.\nThere will be no additional VAT or duty charges requested by our carriers during delivery."
+          }
+        },
+        "8d184a43-d3e0-44f1-b901-0fcf6eb67b79": {
+          "type": "image",
+          "settings": {
+            "title": "Can I cancel my order?",
+            "desc": "Unfortunately, once an order is received, we cannot cancel it but you always have the option to initiate a return once you receive your order in case you change your mind."
+          }
+        },
+        "943a372b-43bd-48fe-be6d-980207ba8d56": {
+          "type": "image",
+          "settings": {
+            "title": "Can I make a change in my order?",
+            "desc": "Unfortunately, once an order is given, you cannot make any changes in the content of the order but bare in mind that you can give another order for the items you want to add to your orders and once you receive your order, you can return the items you do not want."
+          }
+        },
+        "7aeb138c-ec94-4da8-aff7-7183e9e3c2d9": {
+          "type": "image",
+          "settings": {
+            "title": "I did not receive an order confirmation. What should I do?",
+            "desc": "Please email us at hello@ocoza.com defining your problem so that we can solve it quickly for you."
+          }
+        },
+        "30ca400a-125d-4409-8087-a4f8ae6c3c55": {
+          "type": "image",
+          "settings": {
+            "title": "Where is my order?",
+            "desc": "You can track your order with the order tracking number provided by our couriers. <br>If you do not know your tracking number, you can find out from <a href=\"https:\/\/www.ocoza.com\/account\">“order history”<\/a> page by clicking <a href=\"https:\/\/www.ocoza.com\/account\">here<\/a>."
+          }
+        },
+        "24339bb6-440d-4100-9302-49a089c1fd56": {
+          "type": "image",
+          "settings": {
+            "title": "Do you offer gift wrapping?",
+            "desc": "We would love to wrap your gift to your loved ones for you but we are not able to do it for now. Subscribe to our newsletter to be first to know when we launch gift wrapping."
+          }
+        }
+      },
+      "block_order": [
+        "d437f9cf-e3ac-441d-98da-9aff5f7c5437",
+        "bc1ee80b-6b1e-4ea9-9a5f-8ee9cf500c65",
+        "d1fe05b7-22aa-4116-a9eb-0036dbb05ba5",
+        "c775de8d-56fe-45df-a911-d4a9c5d6d71d",
+        "2447d190-80bc-4afc-8494-7f897b0f3e01",
+        "eab523a9-edf7-457f-83a0-fc0263538065",
+        "6f81756e-19c1-4fef-8049-8f0b9ccde978",
+        "d449aeff-6791-4a97-ab6e-53bf209da42b",
+        "22d47812-ee8b-4b9f-878d-deaa81f3556c",
+        "c473cc65-24b1-4493-9b62-9a2ebd7145b4",
+        "8d184a43-d3e0-44f1-b901-0fcf6eb67b79",
+        "943a372b-43bd-48fe-be6d-980207ba8d56",
+        "7aeb138c-ec94-4da8-aff7-7183e9e3c2d9",
+        "30ca400a-125d-4409-8087-a4f8ae6c3c55",
+        "24339bb6-440d-4100-9302-49a089c1fd56"
+      ],
+      "settings": {
+        "display": "",
+        "full": false,
+        "margin": "0,0,0",
+        "title": "",
+        "more": ""
+      }
+    },
+    "16442419473e637679": {
+      "type": "faqs",
+      "blocks": {
+        "8e322c6a-493a-40ff-9786-38c37d9ccc90": {
+          "type": "image",
+          "settings": {
+            "title": "SHIPPING & DELIVERY",
+            "desc": ""
+          }
+        },
+        "179d658a-ccab-445a-81df-a3cbefa92c17": {
+          "type": "image",
+          "settings": {
+            "title": "Where do you ship?",
+            "desc": "Currently, we only ship to the UK & Ireland but good news is that we are expanding. Subscribe to our newsletter to know once we start shipping to your location."
+          }
+        },
+        "6538f2e3-e544-48e7-a1a4-c7ac19fbd156": {
+          "type": "image",
+          "settings": {
+            "title": "How much does the shipping cost? Do you offer free shipping?",
+            "desc": "We offer you free shipping for all orders above 70 Pounds across the UK & 80 Euros across Ireland. If your order is below threshold, but 7 pounds to the UK \/8 euros to Ireland. will be charged as shipping fee. Please note that although we ship your items directly from the manufacturers, all costs including VAT and the customs duties are taken care of and covered by us leaving no additional expenses whatsoever to the customer."
+          }
+        },
+        "e1311966-6526-4b2c-a10e-ed227a6a9f47": {
+          "type": "image",
+          "settings": {
+            "title": "How long does the delivery take?",
+            "desc": "Estimated time of delivery for the UK is 3 to 8 days. Due to delays caused by Brexit and the ongoing Covid-19 pandemic this ETA may vary by 2 to 3 days. <br>\nWe are constantly working with our carrier partners to shorten the delivery time even further."
+          }
+        },
+        "eb7e57a7-e674-4fd6-a237-614e92fe3e8c": {
+          "type": "image",
+          "settings": {
+            "title": "Can I have different addresses for invoice and delivery?",
+            "desc": "Yes, you can. At the checkout simply check the box for the delivery address when you have a different delivery address then  your billing address."
+          }
+        },
+        "f907a2f9-111d-4182-bf0c-1dcfaf851e36": {
+          "type": "image",
+          "settings": {
+            "title": "Can I change my delivery address after giving the order?",
+            "desc": "After the order is received, changing the delivery address unfortunately will not be possible. We suggest you to get in touch with the shipping company and change the delivery address."
+          }
+        },
+        "2d81c92a-c612-467c-bebd-a27f65768f48": {
+          "type": "image",
+          "settings": {
+            "title": "RETURN & REFUND",
+            "desc": ""
+          }
+        },
+        "cfdf5891-6bca-4b09-b9aa-b98240dee24f": {
+          "type": "image",
+          "settings": {
+            "title": "Can I return my order?",
+            "desc": "If for any reason you’re not completely satisfied with your order, you can return it for free as a whole or partially.  To request a free return, please contact us and we’ll get back to you immediately with your return instructions.  We’ll then refund you as soon as the return has been received."
+          }
+        },
+        "244d2e94-12bc-49a9-8828-e2da930fc01e": {
+          "type": "image",
+          "settings": {
+            "title": "When can I receive my refund?",
+            "desc": "After receiving your return, we initiate the refund process to your original payment method immediately.<br> Refund amount will be in your account within 3 to 5 business days depending on your bank."
+          }
+        },
+        "6e54fa7f-414e-4730-9a7f-48df2660a4e8": {
+          "type": "image",
+          "settings": {
+            "title": "My refund is incomplete. What should I do?",
+            "desc": "Please email us at hello@ocoza.com and let us know of  the problem you’re experiencing  so that we can solve it quickly for you."
+          }
+        },
+        "2c86f61c-8141-406a-8d61-fc0c41e1e349": {
+          "type": "image",
+          "settings": {
+            "title": "I did not receive my refund? What should I do?",
+            "desc": "Please email us at hello@ocoza.com and let us know of  the problem you’re experiencing  so that we can solve it quickly for you."
+          }
+        }
+      },
+      "block_order": [
+        "8e322c6a-493a-40ff-9786-38c37d9ccc90",
+        "179d658a-ccab-445a-81df-a3cbefa92c17",
+        "6538f2e3-e544-48e7-a1a4-c7ac19fbd156",
+        "e1311966-6526-4b2c-a10e-ed227a6a9f47",
+        "eb7e57a7-e674-4fd6-a237-614e92fe3e8c",
+        "f907a2f9-111d-4182-bf0c-1dcfaf851e36",
+        "2d81c92a-c612-467c-bebd-a27f65768f48",
+        "cfdf5891-6bca-4b09-b9aa-b98240dee24f",
+        "244d2e94-12bc-49a9-8828-e2da930fc01e",
+        "6e54fa7f-414e-4730-9a7f-48df2660a4e8",
+        "2c86f61c-8141-406a-8d61-fc0c41e1e349"
+      ],
+      "settings": {
+        "display": "",
+        "full": false,
+        "margin": "0,0,0",
+        "title": "",
+        "more": ""
+      }
+    },
+    "1644415004c50fb2ee": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Drop us a line"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16442419473e637679",
+    "1644415004c50fb2ee"
+  ]
+}

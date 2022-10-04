@@ -1,0 +1,377 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "1656970028491d3a2b": {
+      "type": "image-with-text",
+      "blocks": {
+        "1656970028f5214ce9-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Summer Collection"
+          }
+        },
+        "1656970028f5214ce9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sunbathing at the beach, hanging out by the pool, or swimming in the lake. Wherever you are this summer take your style to the next level with our lightweight and stylish peshtemal beach towels.<\/p>"
+          }
+        },
+        "1656970028f5214ce9-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Beach Towels",
+            "button_link": "shopify:\/\/collections\/peshtemal-towels"
+          }
+        }
+      },
+      "block_order": [
+        "1656970028f5214ce9-0",
+        "1656970028f5214ce9-1",
+        "1656970028f5214ce9-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Summer-III.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "16569722845cef4887": {
+      "type": "multicolumn",
+      "blocks": {
+        "1656972284e183c90a-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Latest_Trustpilot.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "https:\/\/www.trustpilot.com\/review\/ocoza.com"
+          }
+        }
+      },
+      "block_order": [
+        "1656972284e183c90a-1"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "16569719411fb584bf": {
+      "type": "rich-text",
+      "blocks": {
+        "1656971941abced74f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ponchos as beach wear, anyone?",
+            "heading_size": "h2"
+          }
+        },
+        "1656971941abced74f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Stand out from the crowd this summer. Super cosy and stylish beach ponchos will be your summer favourite. Lightweight, quick-dry and perfect for summer vacation.  <\/p>"
+          }
+        },
+        "1656971941abced74f-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1656971941abced74f-0",
+        "1656971941abced74f-1",
+        "1656971941abced74f-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1656971879cc7a3b6a": {
+      "type": "featured-product",
+      "blocks": {
+        "1656971878717c513f-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "1656971878717c513f-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "1656971878717c513f-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "1656971878717c513f-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1656971878717c513f-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "1656971878717c513f-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1656971878717c513f-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "1656971878717c513f-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "1656971878717c513f-0",
+        "1656971878717c513f-1",
+        "1656971878717c513f-2",
+        "1656971878717c513f-3",
+        "1656971878717c513f-4",
+        "1656971878717c513f-5",
+        "1656971878717c513f-6",
+        "1656971878717c513f-7"
+      ],
+      "settings": {
+        "product": "cacoon-cotton-poncho-white",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "16569710361de17f24": {
+      "type": "multicolumn",
+      "blocks": {
+        "16569710369f9b1604-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/As_Seen_In_21d7eebe-11ac-4c09-a859-90c118e83a6a.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16569710369f9b1604-1"
+      ],
+      "settings": {
+        "title": "As Seen In",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "165697117723396fc7": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Summer Favourites",
+        "img1": "shopify:\/\/shop_images\/Fair_Price_Finest_Quality_3c0646cc-1676-47f5-90cb-7ebfb610e005.png",
+        "whyBackground": "#fafafa",
+        "title1": "Fair Price, Finest Quality",
+        "desc1": "",
+        "img2": "shopify:\/\/shop_images\/Fast_and_Free_Shipping_3df11d3d-0908-4cd3-a21a-e3553ddcc7fc.png",
+        "title2": "Free Shipping over £50",
+        "desc2": "",
+        "img3": "shopify:\/\/shop_images\/30_Nights_Free_Trial_c7bed278-e215-4200-a8f0-753190e5a20a.png",
+        "title3": "Free Returns",
+        "desc3": "",
+        "img4": "shopify:\/\/shop_images\/Secure_Payment_e92d741e-6f5e-41ea-a68b-bb20f0768ab4.png",
+        "title4": "Buy Now Pay Later",
+        "desc4": "",
+        "img5": "shopify:\/\/shop_images\/Hypoallergenic_947e9807-e79c-4436-8320-0e6166cbdec9.png",
+        "title5": "No Pilling, Less Fading",
+        "desc5": "",
+        "img6": "shopify:\/\/shop_images\/100_Natural_Cotton_75cb0008-f808-492a-a025-6922f1e51755.png",
+        "title6": "All Natural Materials",
+        "desc6": "",
+        "img7": "shopify:\/\/shop_images\/low-climate-impact_572dfa2d-6ef7-43fb-8483-de1209a8cfc8.png",
+        "title7": "Zero Chemicals or Harmful Substances",
+        "desc7": "",
+        "collection": "peshtemal-towels",
+        "products_to_show": 12,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": true,
+        "show_rating": false
+      }
+    },
+    "1656972101b30dcecf": {
+      "type": "rich-text",
+      "blocks": {
+        "165697210192955a04-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "165697210192955a04-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "165697210192955a04-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop All Beach Towels",
+            "button_link": "shopify:\/\/collections\/peshtemal-towels",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "165697210192955a04-0",
+        "165697210192955a04-1",
+        "165697210192955a04-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "166072295754ccba55": {
+      "type": "featured-product",
+      "blocks": {
+        "1660722957ad86e5e6-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "1660722957ad86e5e6-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "1660722957ad86e5e6-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "1660722957ad86e5e6-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1660722957ad86e5e6-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "1660722957ad86e5e6-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1660722957ad86e5e6-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "1660722957ad86e5e6-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "1660722957ad86e5e6-0",
+        "1660722957ad86e5e6-1",
+        "1660722957ad86e5e6-2",
+        "1660722957ad86e5e6-3",
+        "1660722957ad86e5e6-4",
+        "1660722957ad86e5e6-5",
+        "1660722957ad86e5e6-6",
+        "1660722957ad86e5e6-7"
+      ],
+      "settings": {
+        "product": "classic-percale-core-bedding-set-anthracite-with-white-piped-edge",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "1656972126a8270505": {
+      "type": "apps",
+      "blocks": {
+        "25ff8266-2290-4517-9034-8b7688e9a55e": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "25ff8266-2290-4517-9034-8b7688e9a55e"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1656970028491d3a2b",
+    "16569722845cef4887",
+    "16569719411fb584bf",
+    "1656971879cc7a3b6a",
+    "16569710361de17f24",
+    "165697117723396fc7",
+    "1656972101b30dcecf",
+    "166072295754ccba55",
+    "1656972126a8270505"
+  ]
+}

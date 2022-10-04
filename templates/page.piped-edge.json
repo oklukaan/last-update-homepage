@@ -1,0 +1,293 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1661429175463e8f31": {
+      "type": "rich-text",
+      "blocks": {
+        "16614291758cf944e8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Piped Edge Bedding Collection",
+            "heading_size": "h1"
+          }
+        },
+        "16614291758cf944e8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Piped edged bedding sets provide a classic yet modern look to any bedroom, with an assortment of other décor styles from extravagant or minimalist.<\/p>"
+          }
+        },
+        "16614291758cf944e8-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16614291758cf944e8-0",
+        "16614291758cf944e8-1",
+        "16614291758cf944e8-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1661417594e4e9377c": {
+      "type": "multicolumn",
+      "blocks": {
+        "16614175941abf08d9-0": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16614175941abf08d9-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Anthracite.jpg",
+            "title": "High quality craftsmanship for timeless elegance",
+            "text": "<p>Our OEKO-TEX certified 100% natural cotton piped edge bedding sets are crafted to complement your bedroom. Made from only natural, breathable, and lightweight materials, the softness of our beddings offers you more than 5-star luxury hotel comfort.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16614175941abf08d9-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16614175941abf08d9-0",
+        "16614175941abf08d9-1",
+        "16614175941abf08d9-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Shop Now",
+        "button_link": "https:\/\/uk.ocoza.com\/products\/classic-percale-core-bedding-set-anthracite-with-white-piped-edge",
+        "swipe_on_mobile": false
+      }
+    },
+    "166142958870941be9": {
+      "type": "multicolumn",
+      "blocks": {
+        "1661429588cbfba7f4-0": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1661429588cbfba7f4-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Latest_Trustpilot.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "https:\/\/www.trustpilot.com\/review\/ocoza.com"
+          }
+        },
+        "1661429588cbfba7f4-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1661429588cbfba7f4-0",
+        "1661429588cbfba7f4-1",
+        "1661429588cbfba7f4-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "16614198951ebd7962": {
+      "type": "multicolumn",
+      "blocks": {
+        "166141989573c361a2-0": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "166141989573c361a2-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Final-Jade.jpg",
+            "title": "Self- expression with dynamic and stylish colour combinations",
+            "text": "<p>Long staple cotton finishes with a stronger and smoother surface that is suitable for every skin. With modern design features and perfect details, our piped edged bedding will brighten up your room.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "166141989573c361a2-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "166141989573c361a2-0",
+        "166141989573c361a2-1",
+        "166141989573c361a2-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Shop Now",
+        "button_link": "https:\/\/uk.ocoza.com\/products\/classic-percale-core-bedding-set-jade-green-with-white-piped-edge",
+        "swipe_on_mobile": false
+      }
+    },
+    "16614209560b0319be": {
+      "type": "multicolumn",
+      "blocks": {
+        "166142095609af4e6a-0": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "166142095609af4e6a-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_300640cb-b0e8-4024-84b9-cb6f859c9ed6.jpg",
+            "title": "Perfect for layers-on-layers look",
+            "text": "<p>Crisp, cool and lived-in, our piped edge bedding collection is perfect for year-round use. Setting your bedroom style to a relaxed and cosy one, all available 8 colour combinations can be matched with  different blankets and bedspreads.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "166142095609af4e6a-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "166142095609af4e6a-0",
+        "166142095609af4e6a-1",
+        "166142095609af4e6a-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Shop Now",
+        "button_link": "https:\/\/uk.ocoza.com\/products\/classic-percale-core-bedding-set-peach-with-white-piped-edge",
+        "swipe_on_mobile": false
+      }
+    },
+    "16614215445434c7f5": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "img1": "shopify:\/\/shop_images\/Fair_Price_Finest_Quality_3c0646cc-1676-47f5-90cb-7ebfb610e005.png",
+        "whyBackground": "#fafafa",
+        "title1": "Fair Price, Finest Quality",
+        "desc1": "",
+        "img2": "shopify:\/\/shop_images\/Fast_and_Free_Shipping_3df11d3d-0908-4cd3-a21a-e3553ddcc7fc.png",
+        "title2": "Free Shipping over £50",
+        "desc2": "",
+        "img3": "shopify:\/\/shop_images\/30_Nights_Free_Trial_c7bed278-e215-4200-a8f0-753190e5a20a.png",
+        "title3": "Free Returns",
+        "desc3": "",
+        "img4": "shopify:\/\/shop_images\/Secure_Payment_e92d741e-6f5e-41ea-a68b-bb20f0768ab4.png",
+        "title4": "Buy Now Pay Later",
+        "desc4": "",
+        "img5": "shopify:\/\/shop_images\/Hypoallergenic_947e9807-e79c-4436-8320-0e6166cbdec9.png",
+        "title5": "No Pilling, Less Fading",
+        "desc5": "",
+        "img6": "shopify:\/\/shop_images\/100_Natural_Cotton_75cb0008-f808-492a-a025-6922f1e51755.png",
+        "title6": "All Natural Materials",
+        "desc6": "",
+        "img7": "shopify:\/\/shop_images\/low-climate-impact_572dfa2d-6ef7-43fb-8483-de1209a8cfc8.png",
+        "title7": "Zero Chemicals or Harmful Substances",
+        "desc7": "",
+        "collection": "piped-edge-bedding-collection",
+        "products_to_show": 8,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1661429175463e8f31",
+    "1661417594e4e9377c",
+    "166142958870941be9",
+    "16614198951ebd7962",
+    "16614209560b0319be",
+    "16614215445434c7f5"
+  ]
+}

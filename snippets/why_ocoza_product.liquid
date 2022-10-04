@@ -1,0 +1,234 @@
+
+<style>
+
+  ul>li {
+    display:block;
+  }
+  .pryazi{
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 22px !important;
+    width:90%;
+    line-height:25px;
+  }
+  .pryaziss{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 22px !important;
+    width:100%;
+  }
+  .imgclassk{
+    width:5%;
+    margin-right: 20px;
+    vertical-align: baseline;
+  }
+   @media (max-width: 992px){
+   .pryazi{
+       display: inline-block;
+    padding-left: 0px;
+    font-size: 16px !important;
+    width: 80%;
+         padding-top: 10px;
+  }
+     .pryaziss{
+       display: inline-block;
+    padding-left: 0px;
+    font-size: 16px !important;
+    width: 100%;
+         padding-top: 10px;
+       text-align: center;
+  }
+  .imgclassk{
+    width:10%;
+    vertical-align: top;
+    padding-top: 20px;
+  }
+     .box-mobileti{
+     font-size: 1rem !important;
+    font-weight: 600;
+     }
+   }
+  
+    .station-tabs .station-tabs-link {
+      border-radius: 3px 3px 0 0 !important;
+      padding: 12px 24px !important;
+      margin: 0 4px -1px 0 !important;
+      border-width: 0px 0px 1px 0px !important;
+      border-color: #e1e1e1 !important;
+      background-color: #FFFFFF !important;
+      color: #000000 !important;
+    }
+    @media(min-width:990px){
+
+  .station-tabs .station-tabs-link.is-active:after{
+     position: absolute;
+    content: "";
+    top: 98%;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #000;
+   
+  }
+    }
+   @media(max-width:990px){
+
+       .station-tabs-link span:before {
+    font-family: 'FontAwesome';
+    content: "\002B";    
+    float: right;
+}
+.station-tabs-link.is-active span:before {  
+      font-family: 'FontAwesome';
+    content: "\2212"; 
+    float: right;
+}
+  }
+</style>  
+<div style="margin-top:35px; margin-bottom:0px; z-index:0;background-color:#f2eeee;">
+  {% assign found = false %}
+{% for c in product.collections %}
+  {% if c.handle == "bedding" %}
+    {% assign found = true %}
+  {% endif %}
+{% endfor %}
+
+{% if template != 'cart' %}
+        	  <div class="whyOcoza forMobile">
+
+                <h3 class="whyOcozaHead">WHY OCOZA?</h3>
+                
+                <img src="https://cdn.shopify.com/s/files/1/0523/8865/9380/products/ocoza0879-edit_ab9fb730-bc56-46b7-a9b5-7d884890411e_288x.jpg" class="whyOcozaIMG">
+                
+                <p class="whyOcozaDesc">30 Nights Free Trial</p>
+                  
+                
+                <div class="whyOcozaListItem">
+                
+                 <ul>
+                  <li>
+                    <img class="imgclassk"  src="https://cdn.shopify.com/s/files/1/0523/8865/9380/files/fair_price_icon_6066a4e0-b3aa-4198-9085-5b052e896759.png?v=1621947509" alt="">                  
+                    <p class="pryazi"><strong>Fair Price, Finest Quality - </strong>
+                    Our products are directly delivered to you from the best manufacturers, modernising the centuries long tradition of cotton growing and weaving in Anatolia. With no middleman involved and shorter travel distances, you pay less for superior quality products. 
+                    </p>
+                    </li>
+                  <li>
+                   <img class="imgclassk" src="https://cdn.shopify.com/s/files/1/0523/8865/9380/files/express_shipping_icon_8fe7b4c1-3a10-4388-a780-afec8c0b9b52.png?v=1621947509" alt="">                  
+                     <p class="pryazi"><strong>Free Express Shipping - </strong>
+                    We partner with UPS to offer free express shipping and you’ll receive your orders in around 4 days!
+                    </p>
+                  </li>
+                  <li>
+                    <img class="imgclassk"  src="https://cdn.shopify.com/s/files/1/0523/8865/9380/files/free_trial_icon_aaec8932-2224-424b-8a39-e101485e0f27.png?v=1621947509" alt="">                  
+                    <p class="pryazi"> <strong>Free Returns - </strong>
+                    We are confident you’ll love your Ocoza products. But if you don’t for a reason, we got you covered. We have a 30-day return policy.                  
+                    </p>
+                 </li>
+                  <li>
+                   <img class="imgclassk" src="https://cdn.shopify.com/s/files/1/0523/8865/9380/files/secure_payment_icon_64b59ab4-3791-4231-aa36-f1c3d8916ce3.png?v=1621947509" alt="">                  
+                     <p class="pryazi"><strong>Secure Payment - </strong>
+                    We accept all major credit and debit cards, including PayPal, Apple Pay and Google Pay.
+                    </p>
+                  </li>                  
+                  <li> 
+                    <img class="imgclassk" src="https://cdn.shopify.com/s/files/1/0523/8865/9380/files/coza-icons_0014_cozaweb-icons-14.png?v=1616950566" alt="">                  
+                     <p class="pryazi"><strong>100% Long Staple Cotton - </strong>
+                    All Ocoza products are produced from 100% long staple cotton, which makes them super soft and long lasting. Long staple cotton does not pill, frays less and even fades less.
+                    </p>
+                   </li>
+                  <li>
+                   <img class="imgclassk" src="https://cdn.shopify.com/s/files/1/0523/8865/9380/files/coza-icons_0012_cozaweb-icons-15.png?v=1616950566" alt="">                  
+                     <p class="pryazi"><strong>Hypoallergenic - </strong>
+                    100% Cotton naturally supports an uninterrupted, healthier sleep cycle followed by better and happier mornings. 
+                    </p>
+                  </li>
+                  <li>
+                   <img class="imgclassk" src="https://cdn.shopify.com/s/files/1/0523/8865/9380/files/oekotex-icon.png?v=1624545137" alt="">                  
+                     <p class="pryazi"><strong>Oeko-Tex ® Certified - </strong>
+                    All our products have Oeko-Tex certificate, delivering intimate home goods without any chemicals or other harmful substances. 
+                    </p>
+                  </li>
+                </ul>
+                </div>
+                
+                
+        	  </div>
+
+ 		<div class="whyOcoza forDesk">
+
+          
+          <div class="whyOcozaLeft" style="align-self: center;">
+          
+                          <p class="whyOcozaDesc">30 Nights Free Trial</p>
+
+          
+                          <img src="https://cdn.shopify.com/s/files/1/0523/8865/9380/products/ocoza0879-edit_ab9fb730-bc56-46b7-a9b5-7d884890411e_288x.jpg" class="whyOcozaIMG">
+
+          </div>
+          
+          <div class="whyOcozaRight">
+          
+                <h3 class="whyOcozaHead">WHY OCOZA?</h3>
+                
+                
+                  
+                
+                <div class="whyOcozaListItem">
+                
+                 <ul>
+                  <li>
+                    <img class="imgclassk"  src="https://cdn.shopify.com/s/files/1/0523/8865/9380/files/fair_price_icon_6066a4e0-b3aa-4198-9085-5b052e896759.png?v=1621947509" alt="">                  
+                    <p class="pryazi"><strong>Fair Price, Finest Quality - </strong>
+                    Our products are directly delivered to you from the best manufacturers, modernising the centuries long tradition of cotton growing and weaving in Anatolia. With no middleman involved and shorter travel distances, you pay less for superior quality products. 
+                    </p>
+                    </li>
+                  <li>
+                   <img class="imgclassk" src="https://cdn.shopify.com/s/files/1/0523/8865/9380/files/express_shipping_icon_8fe7b4c1-3a10-4388-a780-afec8c0b9b52.png?v=1621947509" alt="">                  
+                     <p class="pryazi"><strong>Free Express Shipping - </strong>
+                    We partner with UPS to offer free express shipping and you’ll receive your orders in around 4 days!
+                    </p>
+                  </li>
+                  <li>
+                    <img class="imgclassk"  src="https://cdn.shopify.com/s/files/1/0523/8865/9380/files/free_trial_icon_aaec8932-2224-424b-8a39-e101485e0f27.png?v=1621947509" alt="">                  
+                    <p class="pryazi"> <strong>Free Returns - </strong>
+                    We are confident you’ll love your Ocoza products. But if you don’t for a reason, we got you covered. We have a 30-day return policy.                  
+                    </p>
+                 </li>
+                  <li>
+                   <img class="imgclassk" src="https://cdn.shopify.com/s/files/1/0523/8865/9380/files/secure_payment_icon_64b59ab4-3791-4231-aa36-f1c3d8916ce3.png?v=1621947509" alt="">                  
+                     <p class="pryazi"><strong>Secure Payment - </strong>
+                    We accept all major credit and debit cards, including PayPal, Apple Pay and Google Pay.
+                    </p>
+                  </li>                  
+                  <li> 
+                    <img class="imgclassk" src="https://cdn.shopify.com/s/files/1/0523/8865/9380/files/coza-icons_0014_cozaweb-icons-14.png?v=1616950566" alt="">                  
+                     <p class="pryazi"><strong>100% Long Staple Cotton - </strong>
+                    All Ocoza products are produced from 100% long staple cotton, which makes them super soft and long lasting. Long staple cotton does not pill, frays less and even fades less.
+                    </p>
+                   </li>
+                  <li>
+                   <img class="imgclassk" src="https://cdn.shopify.com/s/files/1/0523/8865/9380/files/coza-icons_0012_cozaweb-icons-15.png?v=1616950566" alt="">                  
+                     <p class="pryazi"><strong>Hypoallergenic - </strong>
+                    100% Cotton naturally supports an uninterrupted, healthier sleep cycle followed by better and happier mornings. 
+                    </p>
+                  </li>
+                  <li>
+                   <img class="imgclassk" src="https://cdn.shopify.com/s/files/1/0523/8865/9380/files/oekotex-icon.png?v=1624545137" alt="">                  
+                     <p class="pryazi"><strong>Oeko-Tex ® Certified - </strong>
+                    All our products have Oeko-Tex certificate, delivering intimate home goods without any chemicals or other harmful substances. 
+                    </p>
+                  </li>
+                </ul>
+                
+                </div>
+            
+          </div>
+                
+                
+        	  </div>
+{% endif %}
+        
+
+
+  

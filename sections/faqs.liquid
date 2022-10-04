@@ -1,0 +1,217 @@
+{%- assign image_size = 'master' -%}
+{% assign full = section.settings.full %}
+{% assign margin = section.settings.margin | split: ',' %}
+{% assign top = margin[0] %}
+{% assign bottom = margin[1] %}
+{% assign zindex = margin[2] %}
+
+<style>
+  .accordion{
+  margin: 0;
+    padding: 0;
+  }
+</style>
+
+<div data-section-id="{{ section.id }}" data-section-type="advanced" data-section-name="index-faqs">
+  <div class="{{ section.settings.display }} page-width" style="margin-top:{{top}}px; margin-bottom:{{bottom}}px; z-index:{{zindex}};">
+    {% if settings.index_style == '1' %}
+    {% unless full %}
+    <div class="grid-container" style="margin-bottom:50px;">
+    {% endunless %}
+    {% endif %}
+      {%- if section.settings.title != blank -%}
+        <div class="box-divider blog-title">
+          <h2 class="box-title width-100">{{ section.settings.title }}</h2>
+          <div class="more-links">{{ section.settings.more }}</div>
+        </div>
+      {%- endif -%}
+      <div class="section-content">
+        <div class="faqs-content">
+          {% if section.blocks.size > 0 %}        
+            <ul class="accordion" data-responsive-accordion-tabs="accordion" data-multi-expand="false" data-allow-all-closed="true">
+            {%- for block in section.blocks -%}
+     
+              
+              <div 
+                   {%if block.settings.title=="RETURN & REFUND"%}
+                   			id="Return_Refund"
+                   		{%else%}
+                   			id="{{block.settings.title | capitalize}}"
+                   		{%endif%}
+                   class="product__accordion 
+                          
+                                   {% if block.settings.title == "RETURN & REFUND" or block.settings.title == "PRODUCTS" or block.settings.title == "ORDERS" or block.settings.title == "SHIPPING & DELIVERY" %}
+accordiona
+                          {% else %}
+                          accordion
+                          {%endif%}
+                          
+                          " {{ block.shopify_attributes }}>
+  <details>
+    <summary>
+      <div class="summary__title">
+        {% render 'icon-accordion', icon: block.settings.icon %}
+        <h2 class="h4 accordion__title">
+       
+          {{block.settings.title}}
+        
+        </h2>
+      </div>
+      {% render 'icon-caret' %}
+    </summary>
+    <div class="accordion__content rte">
+              {{ block.settings.desc }}
+    </div>
+  </details>
+</div>
+              
+              
+            {% endfor %}          
+          </ul>
+          {% endif %}
+        </div>   
+      </div>
+    {% if settings.index_style == '1' %}
+    {% unless full %}
+    </div>
+    {% endunless %}
+    {% endif %}
+  </div>
+</div>
+
+
+<style>
+  .accordiona .accordion__title{font-weight:bold; margin-bottom:-15px;margin-top:50px;}
+  .accordion{border-top: none !important;}
+.accordion summary {
+  display: flex;
+  position: relative;
+  line-height: 1;
+  padding: 1.5rem 0;
+}
+
+.accordion .summary__title {
+  display: flex;
+  flex: 1;
+}
+
+.accordion + .accordion {
+  margin-top: 0;
+  border-top: none;
+}
+
+.accordion {
+  margin-top: 2.5rem;
+  margin-bottom: 0;
+  border-top: 0.1rem solid rgba(var(--color-foreground), 0.08);
+  border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
+}
+
+.accordion__title {
+  display: inline-block;
+  max-width: calc(100% - 6rem);
+  min-height: 1.6rem;
+  margin: 0;
+  word-break: break-word;
+}
+
+.accordion .icon-accordion {
+  align-self: center;
+  min-width: 1.6rem;
+  margin-right: 1rem;
+  fill: rgb(var(--color-foreground));
+}
+
+.accordion details[open] > summary .icon-caret {
+  transform: rotate(180deg);
+}
+
+.accordion__content {
+  margin-left:25px !important;
+  margin-bottom: 1.5rem;
+  word-break: break-word;
+}
+
+.accordion__content img {
+  max-width: 100%;
+}
+</style>
+
+{% schema %}
+{
+  "name": "FAQs #1",
+  "class": "index-section index-faqs",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Layout Settings"
+    },
+    {
+      "type": "select",
+      "id": "display",
+      "label": "Display on",
+      "options": [
+        {
+          "value": "",
+          "label": "Desktop & Mobile"
+        },
+        {
+          "value": "show-for-large",
+          "label": "Desktop only"
+        },
+        {
+          "value": "hide-for-large",
+          "label": "Mobile only"
+        }
+      ],
+      "default": ""
+    },
+	{
+      "type": "checkbox",
+      "id": "full",
+      "label": "Show Full width"
+    },
+	{
+      "type": "text",
+      "id": "margin",
+      "label": "Style value (Margin,Z-Index)",
+	  "default":"0,0,0",
+	  "info":"Top(px),Bottom(px),z-index"
+    },
+	{
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+	{
+      "type": "textarea",
+      "id": "more",
+      "label": "More link"
+    }
+  ],  
+  "blocks": [	
+	{
+      "type": "image",
+      "name": "FAQ",
+      "settings": [        
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Question"
+        },
+		{
+          "type": "textarea",
+          "id": "desc",
+          "label": "Answer"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "FAQs #1",
+      "category": "Advanced"
+    }
+  ]
+}
+{% endschema %}

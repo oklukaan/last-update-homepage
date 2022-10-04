@@ -1,0 +1,169 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1660312650ec1581fa": {
+      "type": "featured-product",
+      "blocks": {
+        "166031265018deada7-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "166031265018deada7-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "2628ddd3-7c18-421b-bd69-ede21454ffeb": {
+          "type": "text",
+          "settings": {
+            "text": "Turn your bedroom into neutral heaven with the light and fresh Grey & Pink Bedding Bundle. Combining a duvet cover in Grey, a flat sheet in White and pillowcases in Grey, Pink and White, this curated set is as easy to select as it is to sleep in. Combination of pastel and earthy tones to elevate your bedroom.",
+            "text_style": "body"
+          }
+        },
+        "166031265018deada7-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "166031265018deada7-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "166031265018deada7-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "166031265018deada7-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "166031265018deada7-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "166031265018deada7-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "c89dbd34-432f-4803-9186-98cbee2179f7": {
+          "type": "rating",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "166031265018deada7-0",
+        "166031265018deada7-1",
+        "2628ddd3-7c18-421b-bd69-ede21454ffeb",
+        "166031265018deada7-2",
+        "166031265018deada7-3",
+        "166031265018deada7-4",
+        "166031265018deada7-5",
+        "166031265018deada7-6",
+        "166031265018deada7-7",
+        "c89dbd34-432f-4803-9186-98cbee2179f7"
+      ],
+      "settings": {
+        "product": "grey-pink-bedding-bundle",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "166031133256e6aad9": {
+      "type": "slider-new",
+      "blocks": {
+        "ce0cc426-3207-450f-a24c-918bc8024558": {
+          "type": "card",
+          "settings": {
+            "product_item": "percale-core-bedding-set-pink"
+          }
+        },
+        "a88ab7ff-d84e-40d8-9741-60fdcee05076": {
+          "type": "card",
+          "settings": {
+            "product_item": "percale-core-bedding-set-yellow-grey"
+          }
+        },
+        "7ccf6a71-ab1c-4d40-ba82-9a8411bbccf5": {
+          "type": "card",
+          "settings": {
+            "product_item": "sateen-stripe-flat-sheet-white"
+          }
+        }
+      },
+      "block_order": [
+        "ce0cc426-3207-450f-a24c-918bc8024558",
+        "a88ab7ff-d84e-40d8-9741-60fdcee05076",
+        "7ccf6a71-ab1c-4d40-ba82-9a8411bbccf5"
+      ],
+      "settings": {
+        "navigation_amount": 3,
+        "navigation_color": "",
+        "title": "Bundled Products"
+      }
+    },
+    "1660550143a3514921": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "You may also like",
+        "img1": "shopify:\/\/shop_images\/Fair_Price_Finest_Quality_3c0646cc-1676-47f5-90cb-7ebfb610e005.png",
+        "whyBackground": "#fafafa",
+        "title1": "Fair Price, Finest Quality",
+        "desc1": "",
+        "img2": "shopify:\/\/shop_images\/Fast_and_Free_Shipping_3df11d3d-0908-4cd3-a21a-e3553ddcc7fc.png",
+        "title2": "Free Shipping over £50",
+        "desc2": "",
+        "img3": "shopify:\/\/shop_images\/30_Nights_Free_Trial_c7bed278-e215-4200-a8f0-753190e5a20a.png",
+        "title3": "Free Returns",
+        "desc3": "",
+        "img4": "shopify:\/\/shop_images\/Secure_Payment_e92d741e-6f5e-41ea-a68b-bb20f0768ab4.png",
+        "title4": "Buy Now Pay Later",
+        "desc4": "",
+        "img5": "shopify:\/\/shop_images\/Hypoallergenic_947e9807-e79c-4436-8320-0e6166cbdec9.png",
+        "title5": "No Pilling, Less Fading",
+        "desc5": "",
+        "img6": "shopify:\/\/shop_images\/100_Natural_Cotton_75cb0008-f808-492a-a025-6922f1e51755.png",
+        "title6": "All Natural Materials",
+        "desc6": "",
+        "img7": "shopify:\/\/shop_images\/low-climate-impact_572dfa2d-6ef7-43fb-8483-de1209a8cfc8.png",
+        "title7": "Zero Chemicals or Harmful Substances",
+        "desc7": "",
+        "collection": "bedding",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1660312650ec1581fa",
+    "166031133256e6aad9",
+    "1660550143a3514921"
+  ]
+}

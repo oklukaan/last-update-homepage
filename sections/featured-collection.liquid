@@ -1,0 +1,560 @@
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
+{{ 'component-product-grid.css' | asset_url | stylesheet_tag }}
+
+<link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'template-collection.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'template-collection.css' | asset_url | stylesheet_tag }}</noscript>
+
+{%- liquid
+  assign products_to_display = section.settings.collection.all_products_count
+
+  if section.settings.collection.all_products_count > section.settings.products_to_show
+    assign products_to_display = section.settings.products_to_show
+    assign more_in_collection = true
+  endif
+-%}
+<div class="collection page-width{% if section.settings.swipe_on_mobile == true and section.settings.collection.all_products_count > 2 and section.settings.products_to_show > 2 %} page-width-desktop{% endif %}">
+  <div class="title-wrapper-with-link{% if section.settings.title == blank %} title-wrapper-with-link--no-heading{% endif %}{% if section.settings.collection.all_products_count > 2 and section.settings.swipe_on_mobile and section.settings.products_to_show > 2 %} title-wrapper--self-padded-tablet-down{% endif %}">
+    <h2 class="title{% if section.settings.title == blank %} title--no-heading{% endif %}">{{ section.settings.title | escape }}</h2>
+
+    {%- if section.settings.show_view_all and section.settings.swipe_on_mobile and more_in_collection -%}
+      <a href="{{ section.settings.collection.url }}" class="link underlined-link large-up-hide">{{ 'sections.featured_collection.view_all' | t }}</a>
+    {%- endif -%}
+  </div>
+
+  <slider-component class="slider-mobile-gutter">
+    <ul class="grid grid--2-col product-grid{% if products_to_display == 4 or section.settings.collection == blank %} grid--2-col-tablet grid--4-col-desktop{% else %} grid--3-col-tablet{% endif %}{% if products_to_display > 5 %} grid--one-third-max grid--4-col-desktop grid--quarter-max{% endif %}{% if section.settings.collection.all_products_count > 2 and section.settings.swipe_on_mobile and section.settings.products_to_show > 2 %} slider slider--tablet grid--peek{% endif %}{% if section.settings.show_view_all == false or section.settings.collection.products.size < section.settings.products_to_show %} negative-margin{% endif %}{% if section.settings.show_view_all and section.settings.collection.products.size > section.settings.products_to_show %} negative-margin--small{% endif %}" role="list">
+      {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
+        <li class="grid__item{% if section.settings.collection.all_products_count > 2 and section.settings.swipe_on_mobile and section.settings.products_to_show > 2 %} slider__slide{% endif %}">
+          {% render 'product-card',
+            product_card_product: product,
+            media_size: section.settings.image_ratio,
+            show_secondary_image: section.settings.show_secondary_image,
+            add_image_padding: section.settings.add_image_padding,
+            show_vendor: section.settings.show_vendor,
+            show_image_outline: section.settings.show_image_outline,
+            show_rating: section.settings.show_rating
+          %}
+        </li>
+      {%- else -%}
+        {%- for i in (1..4) -%}
+          <li class="grid__item">
+            {% render 'product-card-placeholder' %}
+          </li>
+        {%- endfor -%}
+      {%- endfor -%}
+    </ul>
+    {%- if section.settings.collection.all_products_count > 2 and section.settings.swipe_on_mobile and section.settings.products_to_show > 2 -%}
+      <div class="slider-buttons no-js-hidden{% if section.settings.collection.all_products_count < 4 %} medium-hide{% endif %}{% if section.settings.collection.all_products_count < 3 %} small-hide{% endif %}">
+        <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="{{ 'accessibility.previous_slide' | t }}">{% render 'icon-caret' %}</button>
+        <div class="slider-counter caption">
+          <span class="slider-counter--current">1</span>
+          <span aria-hidden="true"> / </span>
+          <span class="visually-hidden">{{ 'accessibility.of' | t }}</span>
+          <span class="slider-counter--total">{{ products_to_display }}</span>
+        </div>
+        <button type="button" class="slider-button slider-button--next" name="next" aria-label="{{ 'accessibility.next_slide' | t }}">{% render 'icon-caret' %}</button>
+      </div>
+    {%- endif -%}
+  </slider-component>
+
+  {%- if section.settings.show_view_all and more_in_collection -%}
+    <div class="center{% if section.settings.swipe_on_mobile %} small-hide medium-hide{% endif %}">
+      <a href="{{ section.settings.collection.url }}"
+        class="button"
+        aria-label="{{ 'sections.featured_collection.view_all_label' | t: collection_name: section.settings.collection.title }}"
+      >
+        {{ 'sections.featured_collection.view_all' | t }}
+      </a>
+    </div>
+  {%- endif -%}
+</div>
+
+        
+<!--  product_why_ocoza.liquid -->
+{% if template != "index" %}
+
+
+<style>
+  .whyOcozaIMG{
+  	max-width:75%;
+    width:100%;
+    height:auto;
+    margin-left:70px;
+    margin-right:auto;
+  }
+  ul>li {
+    display:block;
+  }
+  .pryazi{
+     display: inline-block;
+    padding-left: 10px;
+    font-size: 22px !important;
+    width:90%;
+    line-height:25px;
+  }
+  .pryaziss{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 22px !important;
+    width:100%;
+  }
+  .imgclassk{
+    width:7%;
+    margin-right: 7px;
+    vertical-align: middle;
+  }
+   @media (max-width: 992px){
+   .pryazi{
+       display: inline-block;
+    padding-left: 0px;
+    font-size: 16px !important;
+    width: 80%;
+         padding-top: 10px;
+  }
+     .pryaziss{
+       display: inline-block;
+    padding-left: 0px;
+    font-size: 16px !important;
+    width: 100%;
+         padding-top: 10px;
+       text-align: center;
+  }
+  .imgclassk{
+    width:10%;
+    vertical-align: top;
+    padding-top: 30px;
+  }
+     .box-mobileti{
+     font-size: 1rem !important;
+    font-weight: 600;
+     }
+   }
+  
+    .station-tabs .station-tabs-link {
+      border-radius: 3px 3px 0 0 !important;
+      padding: 12px 24px !important;
+      margin: 0 4px -1px 0 !important;
+      border-width: 0px 0px 1px 0px !important;
+      border-color: #e1e1e1 !important;
+      background-color: #FFFFFF !important;
+      color: #000000 !important;
+    }
+    @media(min-width:990px){
+
+  .station-tabs .station-tabs-link.is-active:after{
+     position: absolute;
+    content: "";
+    top: 98%;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #000;
+   
+  }
+    }
+   @media(max-width:990px){
+
+       .station-tabs-link span:before {
+    font-family: 'FontAwesome';
+    content: "\002B";    
+    float: right;
+}
+.station-tabs-link.is-active span:before {  
+      font-family: 'FontAwesome';
+    content: "\2212"; 
+    float: right;
+}
+  }
+</style>  
+<div style="margin-top:35px; margin-bottom:0px; z-index:0;background-color:{{section.settings.whyBackground}};">
+  {% assign found = false %}
+{% for c in product.collections %}
+  {% if c.handle == "bedding" %}
+    {% assign found = true %}
+  {% endif %}
+{% endfor %}
+
+
+  {% if template != "cart" %}
+        
+        	  <div class="whyOcoza forMobile">
+
+                <h3 class="whyOcozaHead">WHY OCOZA?</h3>
+                
+                {%if product.featured_media != null%}
+                              <img src="{{product.featured_media | img_url:"master"}}" class="whyOcozaIMG">
+                          {%else%}
+                              <img src="{{section.settings.collection.featured_image | img_url:"master"}}" class="whyOcozaIMG">
+                          {%endif%}
+                <p class="whyOcozaDesc">30 Nights Free Trial</p>
+                  
+                
+                <div class="whyOcozaListItem">
+                
+                 <ul>
+                  <li>
+                    <img class="imgclassk"  src="{{section.settings.img1 | img_url: "master" }}" alt="">                  
+                    <p class="pryazi"><strong>{{ section.settings.title1 }} </strong>
+                    {{ section.settings.desc1 }} 
+                    </p>
+                    </li>
+                    <li>
+                    <img class="imgclassk"  src="{{section.settings.img2 | img_url: "master" }}" alt="">                  
+                    <p class="pryazi"><strong>{{ section.settings.title2 }} </strong>
+                    {{ section.settings.desc2 }} 
+                    </p>
+                    </li>
+                    <li>
+                    <img class="imgclassk"  src="{{section.settings.img3 | img_url: "master" }}" alt="">                  
+                    <p class="pryazi"><strong>{{ section.settings.title3 }} </strong>
+                    {{ section.settings.desc3 }} 
+                    </p>
+                    </li>
+                    <li>
+                    <img class="imgclassk"  src="{{section.settings.img4 | img_url: "master" }}" alt="">                  
+                    <p class="pryazi"><strong>{{ section.settings.title4 }} </strong>
+                    {{ section.settings.desc4 }} 
+                    </p>
+                    </li>             
+                  <li>
+                    <img class="imgclassk"  src="{{section.settings.img5 | img_url: "master" }}" alt="">                  
+                    <p class="pryazi"><strong>{{ section.settings.title5 }} </strong>
+                    {{ section.settings.desc5 }} 
+                    </p>
+                    </li>
+                  <li>
+                    <img class="imgclassk"  src="{{section.settings.img6 | img_url: "master" }}" alt="">                  
+                    <p class="pryazi"><strong>{{ section.settings.title6 }} </strong>
+                    {{ section.settings.desc6 }} 
+                    </p>
+                    </li>
+                 <li>
+                    <img class="imgclassk"  src="{{section.settings.img7 | img_url: "master" }}" alt="">                  
+                    <p class="pryazi"><strong>{{ section.settings.title7 }} </strong>
+                    {{ section.settings.desc7 }} 
+                    </p>
+                    </li>
+                </ul>
+                </div>
+                
+                
+        	  </div>
+
+ 		<div class="whyOcoza forDesk">
+
+          
+          <div class="whyOcozaLeft" style="align-self:center; width:40%;">
+          
+                          <p class="whyOcozaDesc">30 Nights Free Trial</p>
+                          {%if product.featured_media != null%}
+                              <img src="{{product.featured_media | img_url:"master"}}" class="whyOcozaIMG">
+                          {%else%}
+                              <img src="{{section.settings.collection.featured_image | img_url:"master"}}" class="whyOcozaIMG">
+                          {%endif%}
+
+          </div>
+          
+          <div class="whyOcozaRight" style="width:60%;">
+          
+                <h3 class="whyOcozaHead">WHY OCOZA?</h3>
+                
+                
+                  
+                
+                <div class="whyOcozaListItem" >
+                
+                 
+                  <ul>
+                  <li>
+                    <img class="imgclassk"  src="{{section.settings.img1 | img_url: "master" }}" alt="">                  
+                    <p class="pryazi"><strong>{{ section.settings.title1 }} </strong>
+                    {{ section.settings.desc1 }} 
+                    </p>
+                    </li>
+                    <li>
+                    <img class="imgclassk"  src="{{section.settings.img2 | img_url: "master" }}" alt="">                  
+                    <p class="pryazi"><strong>{{ section.settings.title2 }} </strong>
+                    {{ section.settings.desc2 }} 
+                    </p>
+                    </li>
+                    <li>
+                    <img class="imgclassk"  src="{{section.settings.img3 | img_url: "master" }}" alt="">                  
+                    <p class="pryazi"><strong>{{ section.settings.title3 }} </strong>
+                    {{ section.settings.desc3 }} 
+                    </p>
+                    </li>
+                    <li>
+                    <img class="imgclassk"  src="{{section.settings.img4 | img_url: "master" }}" alt="">                  
+                    <p class="pryazi"><strong>{{ section.settings.title4 }} </strong>
+                    {{ section.settings.desc4 }} 
+                    </p>
+                    </li>             
+                  <li>
+                    <img class="imgclassk"  src="{{section.settings.img5 | img_url: "master" }}" alt="">                  
+                    <p class="pryazi"><strong>{{ section.settings.title5 }} </strong>
+                    {{ section.settings.desc5 }} 
+                    </p>
+                    </li>
+                  <li>
+                    <img class="imgclassk"  src="{{section.settings.img6 | img_url: "master" }}" alt="">                  
+                    <p class="pryazi"><strong>{{ section.settings.title6 }} </strong>
+                    {{ section.settings.desc6 }} 
+                    </p>
+                    </li>
+                 <li>
+                    <img class="imgclassk"  src="{{section.settings.img7 | img_url: "master" }}" alt="">                  
+                    <p class="pryazi"><strong>{{ section.settings.title7 }} </strong>
+                    {{ section.settings.desc7 }} 
+                    </p>
+                    </li>
+                </ul>
+                
+                </div>
+            
+          </div>
+                
+                
+        	  </div>
+
+  
+
+
+{% endif %}{% endif %}
+<!--  product_why_ocoza.liquid -->  
+{% schema %}
+  
+{
+  "name": "t:sections.featured-collection.name",
+  "tag": "section",
+  "class": "spaced-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "default": "Featured collection",
+      "label": "t:sections.featured-collection.settings.title.label"
+    },
+      {
+      "type": "image_picker",
+      "id": "img1",
+  	"label": "IMG"
+    },
+    {
+  		"type":"color",
+  		"id":"whyBackground",
+  		"label":"Arkaplan Rengi",
+  		"default": "#fafafa"
+    },
+    {
+      "type": "text",
+      "id": "title1",
+      "default": "Title 1",
+      "label": "Title 1"
+    },
+    {
+      "type": "text",
+      "id": "desc1",
+      "default": "Desc 1",
+      "label": "Desc 1"
+    },
+  
+      {
+      "type": "image_picker",
+      "id": "img2",
+  	"label": "IMG"
+  },
+    {
+      "type": "text",
+      "id": "title2",
+      "default": "Title 2",
+      "label": "Title 2"
+    },
+    {
+      "type": "text",
+      "id": "desc2",
+      "default": "Desc 2",
+      "label": "Desc 2"
+    },
+  
+      {
+      "type": "image_picker",
+      "id": "img3",
+  	"label": "IMG"
+  },
+    {
+      "type": "text",
+      "id": "title3",
+      "default": "Title 3",
+      "label": "Title 3"
+    },
+    {
+      "type": "text",
+      "id": "desc3",
+      "default": "Desc 3",
+      "label": "Desc 3"
+    },
+    {
+      "type": "image_picker",
+      "id": "img4",
+  	"label": "IMG"
+  },
+    {
+      "type": "text",
+      "id": "title4",
+      "default": "Title 4",
+      "label": "Title 4"
+    },
+    {
+      "type": "text",
+      "id": "desc4",
+      "default": "Desc 4",
+      "label": "Desc 4"
+    },
+  
+      {
+      "type": "image_picker",
+      "id": "img5",
+  	"label": "IMG"
+  },
+    {
+      "type": "text",
+      "id": "title5",
+      "default": "Title 5",
+      "label": "Title 5"
+    },
+    {
+      "type": "text",
+      "id": "desc5",
+      "default": "Desc 5",
+      "label": "Desc 5"
+    },
+  
+  
+        {
+      "type": "image_picker",
+      "id": "img6",
+  	"label": "IMG"
+    },
+    {
+      "type": "text",
+      "id": "title6",
+      "default": "Title 6",
+      "label": "Title 6"
+    },
+    {
+      "type": "text",
+      "id": "desc6",
+      "default": "Desc 6",
+      "label": "Desc 6"
+    },
+        {
+      "type": "image_picker",
+      "id": "img7",
+  	"label": "IMG"
+    },
+    {
+      "type": "text",
+      "id": "title7",
+      "default": "Title 7",
+      "label": "Title 7"
+    },
+    {
+      "type": "text",
+      "id": "desc7",
+      "default": "Desc 7",
+      "label": "Desc 7"
+    },
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "t:sections.featured-collection.settings.collection.label"
+    },
+    {
+      "type": "range",
+      "id": "products_to_show",
+      "min": 2,
+      "max": 12,
+      "step": 2,
+      "default": 4,
+      "label": "t:sections.featured-collection.settings.products_to_show.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_view_all",
+      "default": true,
+      "label": "t:sections.featured-collection.settings.show_view_all.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "swipe_on_mobile",
+      "default": false,
+      "label": "t:sections.featured-collection.settings.swipe_on_mobile.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.featured-collection.settings.header.content"
+    },
+    {
+      "type": "select",
+      "id": "image_ratio",
+      "options": [
+        {
+          "value": "adapt",
+          "label": "t:sections.featured-collection.settings.image_ratio.options__1.label"
+        },
+        {
+          "value": "portrait",
+          "label": "t:sections.featured-collection.settings.image_ratio.options__2.label"
+        },
+        {
+          "value": "square",
+          "label": "t:sections.featured-collection.settings.image_ratio.options__3.label"
+        }
+      ],
+      "default": "adapt",
+      "label": "t:sections.featured-collection.settings.image_ratio.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_secondary_image",
+      "default": false,
+      "label": "t:sections.featured-collection.settings.show_secondary_image.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "add_image_padding",
+      "default": false,
+      "label": "t:sections.featured-collection.settings.add_image_padding.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_image_outline",
+      "default": true,
+      "label": "t:sections.featured-collection.settings.show_image_outline.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_vendor",
+      "default": false,
+      "label": "t:sections.featured-collection.settings.show_vendor.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_rating",
+      "default": false,
+      "label": "t:sections.featured-collection.settings.show_rating.label",
+      "info": "t:sections.featured-collection.settings.show_rating.info"
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.featured-collection.presets.name"
+    }
+  ]
+}
+{% endschema %}

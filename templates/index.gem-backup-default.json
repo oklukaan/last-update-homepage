@@ -1,0 +1,780 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "c6905f0c-bb84-4103-8a18-2f97ebeb5725": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "UP TO 50% OFF",
+            "paragraphFontFamily": "avenir",
+            "paragraphColor": "#ffffff",
+            "paragraphFontSize": 20,
+            "paragraphMarginTop": 0,
+            "paragpraphMarginBottom": 0,
+            "paragraphMobileColor": "#ffffff",
+            "paragsShownMobile": false
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bank Holiday Flash Sale",
+            "heading_size": "medium",
+            "headerFontFamily": "Avenir",
+            "headerColor": "#ffffff",
+            "headerFontSize": 45,
+            "headerMarginRight": 0,
+            "headerMarginTop": 0,
+            "headerMarginBottom": 0,
+            "headerMobileColor": "#ffffff",
+            "headerMobileFontSize": 35,
+            "headersShownMobile": false
+          }
+        },
+        "a346852f-fb79-4370-aca9-5b11dd3ade2f": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify:\/\/collections\/bedding",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "buttonFontFamily": "",
+            "buttonBackgroundColor": "#1d3541",
+            "buttonTextColor": "#ffffff",
+            "buttonMarginTop": 0,
+            "buttonMarginBottom": 0,
+            "buttonMobileMarginBottom": -2000
+          }
+        },
+        "158924ba-9a12-43ce-8319-a8e5aa1e5fb8": {
+          "type": "text",
+          "settings": {
+            "text": "25% OFF Sitewide",
+            "paragraphFontFamily": "AVENIR",
+            "paragraphColor": "#ffffff",
+            "paragraphFontSize": 20,
+            "paragraphMarginTop": 1,
+            "paragpraphMarginBottom": 0,
+            "paragraphMobileColor": "#ffffff",
+            "paragsShownMobile": false
+          }
+        },
+        "43c0820f-b9c9-4694-8c8e-0c4d4c19d2aa": {
+          "type": "text",
+          "settings": {
+            "text": "USE CODE: bank22",
+            "paragraphFontFamily": "AVENIR",
+            "paragraphColor": "#ffffff",
+            "paragraphFontSize": 20,
+            "paragraphMobileColor": "#ffffff",
+            "paragsShownMobile": false
+          }
+        }
+      },
+      "block_order": [
+        "c6905f0c-bb84-4103-8a18-2f97ebeb5725",
+        "heading",
+        "a346852f-fb79-4370-aca9-5b11dd3ade2f",
+        "158924ba-9a12-43ce-8319-a8e5aa1e5fb8",
+        "43c0820f-b9c9-4694-8c8e-0c4d4c19d2aa"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Banner-Deneme-I.jpg",
+        "mobileBanner": "shopify:\/\/shop_images\/Mobile-Banner_8300677c-8f63-4cbf-b89b-e91207171ded.jpg",
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
+      }
+    },
+    "16543450273c1fd371": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "1654345027fe5f3d62-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "1654345027fe5f3d62-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/bedding",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1654345027fe5f3d62-0",
+        "1654345027fe5f3d62-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "16412196202a8aa4a0": {
+      "type": "rich-text",
+      "blocks": {
+        "1641219620a692db55-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Premium quality home essentials for less",
+            "heading_size": "h2"
+          }
+        },
+        "1641219620a692db55-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shop from a curated collection of high quality homewares at affordable prices; brought to you directly from the same manufacturers as top global brands without the luxury markups.<\/p>"
+          }
+        },
+        "1641219620a692db55-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "https:\/\/ocoza.com\/discount\/SLEEP22?redirect=\/collections\/bedding",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1641219620a692db55-0",
+        "1641219620a692db55-1",
+        "1641219620a692db55-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "multi_column": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/As_Seen_In_21d7eebe-11ac-4c09-a859-90c118e83a6a.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1200px-GQ_logo.svg_436d1e06-9da3-48a6-8c5c-4aff5c6cd5e1.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column3": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/KNOF-HOUSEGARDEN.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column3"
+      ],
+      "settings": {
+        "title": "AS SEEN IN",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "featured_products": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "BESTSELLERS",
+        "whyBackground": "#fafafa",
+        "title1": "Title 1",
+        "desc1": "Desc 1",
+        "title2": "Title 2",
+        "desc2": "Desc 2",
+        "title3": "Title 3",
+        "desc3": "Desc 3",
+        "title4": "Title 4",
+        "desc4": "Desc 4",
+        "title5": "Title 5",
+        "desc5": "Desc 5",
+        "title6": "Title 6",
+        "desc6": "Desc 6",
+        "title7": "Title 7",
+        "desc7": "Desc 7",
+        "collection": "our-favorites",
+        "products_to_show": 4,
+        "show_view_all": false,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "1660723087b5f48291": {
+      "type": "image-with-text",
+      "blocks": {
+        "1660723087d8c0ed5a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Summer Collection"
+          }
+        },
+        "1660723087d8c0ed5a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ponchos are the perfect stylish cover-up for throwing on over your swimsuit at the beach, while peshtemals make a great alternative to traditional towels. And if you're planning a picnic or camping trip, our muslin blankets are perfect for snuggling up under the stars. <\/p>"
+          }
+        },
+        "1660723087d8c0ed5a-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Discover Now",
+            "button_link": "https:\/\/www.ocoza.com\/pages\/summer-collection"
+          }
+        }
+      },
+      "block_order": [
+        "1660723087d8c0ed5a-0",
+        "1660723087d8c0ed5a-1",
+        "1660723087d8c0ed5a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Anasayfa.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "16615120162b205b5b": {
+      "type": "image-with-text",
+      "blocks": {
+        "166151201664b77f64-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bank Holiday Flash Sale"
+          }
+        },
+        "166151201664b77f64-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For a 3-day sleep binge, 25 % OFF sitewide!<\/p>"
+          }
+        },
+        "166151201664b77f64-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "https:\/\/www.ocoza.com\/pages\/bank-holiday-flash-sale"
+          }
+        }
+      },
+      "block_order": [
+        "166151201664b77f64-0",
+        "166151201664b77f64-1",
+        "166151201664b77f64-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LP-Image.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "1640216444d3e4538d": {
+      "type": "vaatler",
+      "settings": {
+        "maintitle": "Ocoza Difference",
+        "img1": "shopify:\/\/shop_images\/Fair_Price_Finest_Quality.png",
+        "title1": "Fair Price <br> Finest Quality",
+        "desc1": "",
+        "img2": "shopify:\/\/shop_images\/OEKO-TEX_Certified.png",
+        "title2": "OEKO-TEX <br> Certified",
+        "desc2": "",
+        "img3": "shopify:\/\/shop_images\/Free_of_harsh_chemicals.png",
+        "title3": "Free of <br>  Chemicals",
+        "desc3": "",
+        "img4": "shopify:\/\/shop_images\/100_Natural_Cotton.png",
+        "title4": "100% Natural <br> Cotton",
+        "desc4": "",
+        "img5": "shopify:\/\/shop_images\/low-climate-impact_5772d7b8-e484-4284-af40-981d2911d6e0.png",
+        "title5": "Low Climate <br>  Impact",
+        "desc5": "",
+        "img6": "shopify:\/\/shop_images\/plastic-free-packaging_5c3d63cf-dd91-41fc-87be-bb6b89e9d633.png",
+        "title6": "Plastic Free <br>  Packaging",
+        "desc6": ""
+      }
+    },
+    "1640218013a38b1656": {
+      "type": "image-with-text",
+      "blocks": {
+        "1640218013ffe55021-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ocoza  Easy Change Duvet Cover"
+          }
+        },
+        "1640218013ffe55021-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Do you also struggle with making your bed?  You are not alone!<\/p><p>We created Ocoza Easy Change Duvet Cover to make bedmaking quick and easy. Ocoza's invisible corner pocket design allows you to change your duvet cover as often as you like and enjoy that heavenly feeling of freshly changed, clean sheets every day.<\/p>"
+          }
+        },
+        "1640218013ffe55021-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Now",
+            "button_link": "shopify:\/\/collections\/ocoza-bedding-sets"
+          }
+        }
+      },
+      "block_order": [
+        "1640218013ffe55021-0",
+        "1640218013ffe55021-1",
+        "1640218013ffe55021-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Dark_Grey_Bedding_Set_New.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "1640218024eeed614f": {
+      "type": "image-with-text",
+      "blocks": {
+        "1640218024b39d84d2-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Combination of Hotel Comfort, Luxury and Cosiness"
+          }
+        },
+        "1640218024b39d84d2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Better, quicker, easier!<\/p><p>3 simple steps to change your Ocoza duvet cover.<\/p><p>Begin by finding and inserting your hands into the corner pocket. Then grab your duvet and flip the cover over it. Lastly, shake the duvet to make the cover fall evenly. <\/p>"
+          }
+        },
+        "1640218024b39d84d2-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Discover Now",
+            "button_link": "shopify:\/\/collections\/ocoza-bedding-sets"
+          }
+        }
+      },
+      "block_order": [
+        "1640218024b39d84d2-0",
+        "1640218024b39d84d2-1",
+        "1640218024b39d84d2-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/InVideo___Project_ID__804pprenderfs_1640160666984_AdobeCreativeCloudExpress_1.gif",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
+    },
+    "1641226565b5815634": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Ocoza Easy Change Duvet Cover Line",
+        "whyBackground": "#fafafa",
+        "title1": "Title 1",
+        "desc1": "Desc 1",
+        "title2": "Title 2",
+        "desc2": "Desc 2",
+        "title3": "Title 3",
+        "desc3": "Desc 3",
+        "title4": "Title 4",
+        "desc4": "Desc 4",
+        "title5": "Title 5",
+        "desc5": "Desc 5",
+        "title6": "Title 6",
+        "desc6": "Desc 6",
+        "title7": "Title 7",
+        "desc7": "Desc 7",
+        "collection": "ocoza-bedding-sets",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "1640218375dc41dfce": {
+      "type": "vaatler",
+      "settings": {
+        "maintitle": "Our Promises",
+        "title1": "Fair Price Finest Quality",
+        "desc1": "",
+        "img2": "shopify:\/\/shop_images\/Fast_and_Free_Shipping.png",
+        "title2": "Free Shipping <br>  *for orders over £50",
+        "desc2": "",
+        "img3": "shopify:\/\/shop_images\/30_Nights_Free_Trial.png",
+        "title3": "Free Returns <br> within 30 days",
+        "desc3": "",
+        "img4": "shopify:\/\/shop_images\/Secure_Payment.png",
+        "title4": "Secure Payment <br>  Buy Now Pay Later",
+        "desc4": "",
+        "img5": "shopify:\/\/shop_images\/Free_Gift_Towel.png",
+        "title5": "Free Gift Towel <br>  with Every Purchase",
+        "desc5": "",
+        "title6": "Title 6",
+        "desc6": "Desc 6"
+      }
+    },
+    "1640218043a2c0d627": {
+      "type": "collection-list",
+      "blocks": {
+        "8363de6d-5038-444f-8fb7-957bfe460fe9": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bundle-sets"
+          }
+        },
+        "1640218043e8492c68-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bedding"
+          }
+        },
+        "1640218043e8492c68-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bath"
+          }
+        },
+        "1640218043e8492c68-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "li̇festyle"
+          }
+        }
+      },
+      "block_order": [
+        "8363de6d-5038-444f-8fb7-957bfe460fe9",
+        "1640218043e8492c68-0",
+        "1640218043e8492c68-1",
+        "1640218043e8492c68-2"
+      ],
+      "settings": {
+        "title": "Shop by Category",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": true,
+        "image_padding": false,
+        "show_view_all": false
+      }
+    },
+    "16413788595d8f5d89": {
+      "type": "collection-list",
+      "disabled": true,
+      "blocks": {
+        "16413788597ebe97ac-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "golden-hours"
+          }
+        },
+        "16413788597ebe97ac-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "purity-of-white"
+          }
+        },
+        "16413788597ebe97ac-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mood-booster"
+          }
+        }
+      },
+      "block_order": [
+        "16413788597ebe97ac-1",
+        "16413788597ebe97ac-0",
+        "16413788597ebe97ac-2"
+      ],
+      "settings": {
+        "title": "Collections",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
+      }
+    },
+    "1660727001dfae28af": {
+      "type": "multicolumn",
+      "blocks": {
+        "1660727000960a2ed7-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_9a0efe46-2426-4957-adb8-69fd9fca1b78.jpg",
+            "title": "New Arrivals",
+            "text": "",
+            "link_label": "",
+            "link": "https:\/\/www.ocoza.com\/pages\/new-arrivals"
+          }
+        },
+        "1660727000960a2ed7-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3.jpg",
+            "title": "Snow White",
+            "text": "",
+            "link_label": "",
+            "link": "https:\/\/www.ocoza.com\/pages\/purity-of-white"
+          }
+        },
+        "1660727000960a2ed7-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4.jpg",
+            "title": "Mood Boosters",
+            "text": "",
+            "link_label": "",
+            "link": "https:\/\/www.ocoza.com\/pages\/mood-booster"
+          }
+        }
+      },
+      "block_order": [
+        "1660727000960a2ed7-0",
+        "1660727000960a2ed7-1",
+        "1660727000960a2ed7-2"
+      ],
+      "settings": {
+        "title": "Collections",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "1641310946cce1ce89": {
+      "type": "image-with-text",
+      "blocks": {
+        "1641310946bc3d43ba-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Traditional Style Reinvented"
+          }
+        },
+        "1641310946bc3d43ba-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our Santorini bathrobe is the perfect blend of Mediterranean style, luxury, and durability. Thanks to its traditional crisp texture and unique lightweight design, it is the ideal cool off gown to wear while winding down from a busy day.<\/p>"
+          }
+        },
+        "1641310946bc3d43ba-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/products\/santorini-waffle-limited-edition-collection-set-white"
+          }
+        }
+      },
+      "block_order": [
+        "1641310946bc3d43ba-0",
+        "1641310946bc3d43ba-1",
+        "1641310946bc3d43ba-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/rsz_4211117_ocoza_292_1_d210f406-779e-40bf-a209-8c85f3e4db5f.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "16402193208b1b552e": {
+      "type": "ocozaSupplyHome",
+      "disabled": true,
+      "settings": {
+        "text1": "Text 1",
+        "text2": "Text 2",
+        "img1": "shopify:\/\/shop_images\/the-ocoza-guide-nearshoring7.jpg",
+        "img2": "shopify:\/\/shop_images\/the-ocoza-guide-nearshoring4.jpg"
+      }
+    },
+    "1641216795d7fbe3c4": {
+      "type": "image-with-text",
+      "blocks": {
+        "1641216795113564b5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why Ocoza"
+          }
+        },
+        "1641216795113564b5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Premium quality; exclusive collections; no luxury price tags!<\/p><p>Our unique sourcing approach allows us to bring you exceptional quality home goods from the same manufacturers as the top premium brands for up to 60% lower than their high street retail price tag. No middleman, no rent, no huge marketing budgets, and less transportation coupled with expert artistry and design gives us the best quality for the best price.<\/p>"
+          }
+        },
+        "1641216795113564b5-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify:\/\/pages\/about-us"
+          }
+        }
+      },
+      "block_order": [
+        "1641216795113564b5-0",
+        "1641216795113564b5-1",
+        "1641216795113564b5-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/600x616-Why-Ocoza.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "1641221917423fddba": {
+      "type": "apps",
+      "blocks": {
+        "7d0cfc90-8913-456b-b9bb-5da01526454c": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1600
+          }
+        }
+      },
+      "block_order": [
+        "7d0cfc90-8913-456b-b9bb-5da01526454c"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "165392118655b19385": {
+      "type": "multicolumn",
+      "blocks": {
+        "1653921186499691dd-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Trustpilot.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "https:\/\/www.trustpilot.com\/review\/ocoza.com"
+          }
+        },
+        "1653921186499691dd-1": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1653921186499691dd-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1653921186499691dd-0",
+        "1653921186499691dd-1",
+        "1653921186499691dd-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "https:\/\/www.trustpilot.com\/review\/ocoza.com",
+        "swipe_on_mobile": false
+      }
+    },
+    "1643743826c5f5d853": {
+      "type": "instagramStatic",
+      "settings": {
+        "goster": "evet",
+        "baslik": "<i class=\"gg-instagram\"><\/i> Follow Us <a href=\"https:\/\/instagram.com\/ocozacom\" style=\"text-decoration:none;\">@ocozacom<\/a>",
+        "url1": "https:\/\/www.instagram.com\/p\/CgKiPrKs2mS\/",
+        "url2": "https:\/\/www.instagram.com\/p\/Cel9F9LKUgy\/",
+        "url3": "https:\/\/www.instagram.com\/p\/Cf9jss4Kwdz\/",
+        "url4": "https:\/\/www.instagram.com\/p\/CfySP_jKdx0\/",
+        "img1": "shopify:\/\/shop_images\/Poncho-Yellow.jpg",
+        "img2": "shopify:\/\/shop_images\/Post-2.jpg",
+        "img3": "shopify:\/\/shop_images\/Bedding-Set_Upload.jpg",
+        "img4": "shopify:\/\/shop_images\/Plastic-Upload.jpg"
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "16543450273c1fd371",
+    "16412196202a8aa4a0",
+    "multi_column",
+    "featured_products",
+    "1660723087b5f48291",
+    "16615120162b205b5b",
+    "1640216444d3e4538d",
+    "1640218013a38b1656",
+    "1640218024eeed614f",
+    "1641226565b5815634",
+    "1640218375dc41dfce",
+    "1640218043a2c0d627",
+    "16413788595d8f5d89",
+    "1660727001dfae28af",
+    "1641310946cce1ce89",
+    "16402193208b1b552e",
+    "1641216795d7fbe3c4",
+    "1641221917423fddba",
+    "165392118655b19385",
+    "1643743826c5f5d853"
+  ]
+}

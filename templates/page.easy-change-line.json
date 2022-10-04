@@ -1,0 +1,344 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "16569652026c5c08ec": {
+      "type": "rich-text",
+      "blocks": {
+        "1656965202b440161d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Designed to cover even the tiniest details and enhance your sleeping experience!",
+            "heading_size": "h2"
+          }
+        },
+        "1656965202b440161d-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Designed to cover even the tiniest details and enhance your sleeping experience!<\/p>"
+          }
+        },
+        "1656965202b440161d-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1656965202b440161d-0",
+        "1656965202b440161d-1",
+        "1656965202b440161d-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1656962302a6eb541e": {
+      "type": "multicolumn",
+      "blocks": {
+        "165696230232f0527b-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Corner-Yellow.jpg",
+            "title": "",
+            "text": "<p><a href=\"\/collections\/ocoza-bedding-sets\" title=\"Ocoza Easy Change Line\"><strong>Innovative Corner Pockets ➜<\/strong><\/a><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "165696230232f0527b-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Short-Yellow.jpg",
+            "title": "",
+            "text": "<p><a href=\"\/collections\/ocoza-bedding-sets\" title=\"Ocoza Easy Change Line\"><strong>Short Side Labeled Sheets ➜<\/strong><\/a><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "2ee0771d-1990-46d1-8028-1ae7a3f4d2fb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Pillowcase-Yellow.jpg",
+            "title": "",
+            "text": "<p><a href=\"\/collections\/ocoza-bedding-sets\" title=\"Ocoza Easy Change Line\"><strong>Envelope Closure ➜<\/strong><\/a><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "cac32c24-9469-45ba-8ac6-6140e16f9345": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Translucent-Yellow.jpg",
+            "title": "",
+            "text": "<p><a href=\"\/collections\/ocoza-bedding-sets\" title=\"Ocoza Easy Change Line\"><strong>Translucent Buttons ➜<\/strong><\/a><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165696230232f0527b-1",
+        "165696230232f0527b-2",
+        "2ee0771d-1990-46d1-8028-1ae7a3f4d2fb",
+        "cac32c24-9469-45ba-8ac6-6140e16f9345"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "Shop Easy Change Line",
+        "button_link": "shopify:\/\/collections\/ocoza-bedding-sets",
+        "swipe_on_mobile": false
+      }
+    },
+    "1656963247400aabbf": {
+      "type": "multicolumn",
+      "blocks": {
+        "16569632464a4e0e43-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Latest_Trustpilot.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16569632464a4e0e43-1"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "https:\/\/www.trustpilot.com\/review\/ocoza.com",
+        "swipe_on_mobile": false
+      }
+    },
+    "1657203766aca2960c": {
+      "type": "collage",
+      "blocks": {
+        "1657203766071a4239-0": {
+          "type": "video",
+          "settings": {
+            "cover_image": "shopify:\/\/shop_images\/hu.jpg",
+            "video_url": "https:\/\/youtu.be\/xC5N1Z8zTA4",
+            "description": "Describe the video",
+            "image_padding": false
+          }
+        },
+        "1657203766071a4239-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "ocoza-bedding-sets",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "1657203766071a4239-0",
+        "1657203766071a4239-2"
+      ],
+      "settings": {
+        "heading": "Easy Change Line-DIY",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
+    },
+    "1656963431d7da6525": {
+      "type": "image-with-text",
+      "blocks": {
+        "16569634310d781373-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Difference Lies in the Details"
+          }
+        },
+        "16569634310d781373-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Do you also strugle with making your bed? You are not alone!<\/p><p>We created Ocoza Easy Change Duvet Cover to make bedmaking quick and easy. Ocoza's signature corner pocket design allows you to change your duvet cover as often as you like and enjoy that heavenly feeling of freshly changed clean sheets as often as you want.<\/p><p><\/p><p>Better, quicker, easier!<\/p><p>3 simple steps to change your Ocoza duvet cover.<\/p><p>Begin by finding and inserting your hands into the corner pocket. Then grab your duvet and flip the cover over it. Lastly, shake the duvet to make the cover fall evenly.<\/p>"
+          }
+        },
+        "16569634310d781373-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/ocoza-bedding-sets"
+          }
+        }
+      },
+      "block_order": [
+        "16569634310d781373-0",
+        "16569634310d781373-1",
+        "16569634310d781373-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/MILLA_SS21_HOMEWEAR_BANNER482.jpg",
+        "height": "small",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "1656963641f55e5a1b": {
+      "type": "multicolumn",
+      "blocks": {
+        "16569636419073c6ca-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/As_Seen_In.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16569636419073c6ca-1"
+      ],
+      "settings": {
+        "title": "As Seen In",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "165696399336590510": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Ocoza Easy Change Line",
+        "img1": "shopify:\/\/shop_images\/Fair_Price_Finest_Quality_3c0646cc-1676-47f5-90cb-7ebfb610e005.png",
+        "whyBackground": "#fafafa",
+        "title1": "Fair Price, Finest Quality",
+        "desc1": "",
+        "img2": "shopify:\/\/shop_images\/Fast_and_Free_Shipping_3df11d3d-0908-4cd3-a21a-e3553ddcc7fc.png",
+        "title2": "Free Shipping over £50",
+        "desc2": "",
+        "img3": "shopify:\/\/shop_images\/30_Nights_Free_Trial_c7bed278-e215-4200-a8f0-753190e5a20a.png",
+        "title3": "Free Returns",
+        "desc3": "",
+        "img4": "shopify:\/\/shop_images\/Secure_Payment_e92d741e-6f5e-41ea-a68b-bb20f0768ab4.png",
+        "title4": "Buy Now Pay Later",
+        "desc4": "",
+        "img5": "shopify:\/\/shop_images\/Hypoallergenic_947e9807-e79c-4436-8320-0e6166cbdec9.png",
+        "title5": "No Pilling, Less Fading",
+        "desc5": "",
+        "img6": "shopify:\/\/shop_images\/100_Natural_Cotton_75cb0008-f808-492a-a025-6922f1e51755.png",
+        "title6": "All Natural Materials",
+        "desc6": "",
+        "img7": "shopify:\/\/shop_images\/low-climate-impact_572dfa2d-6ef7-43fb-8483-de1209a8cfc8.png",
+        "title7": "Zero Chemicals or Harmful Substances",
+        "desc7": "",
+        "collection": "ocoza-bedding-sets",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "165696447184a88c68": {
+      "type": "rich-text",
+      "blocks": {
+        "1656964471eaea5201-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "1656964471eaea5201-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "1656964471eaea5201-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop All Easy Change",
+            "button_link": "shopify:\/\/collections\/ocoza-bedding-sets",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1656964471eaea5201-0",
+        "1656964471eaea5201-1",
+        "1656964471eaea5201-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1656964518eb84383d": {
+      "type": "apps",
+      "blocks": {
+        "2db3f050-41fd-4290-bf69-34e074cb5d02": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "2db3f050-41fd-4290-bf69-34e074cb5d02"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "16572013921e9eb90e": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "Video",
+        "video_url": "https:\/\/youtu.be\/xC5N1Z8zTA4",
+        "description": "",
+        "full_width": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16569652026c5c08ec",
+    "1656962302a6eb541e",
+    "1656963247400aabbf",
+    "1657203766aca2960c",
+    "1656963431d7da6525",
+    "1656963641f55e5a1b",
+    "165696399336590510",
+    "165696447184a88c68",
+    "1656964518eb84383d",
+    "16572013921e9eb90e"
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16630776151dbbcb34": {
+      "type": "rich-text",
+      "blocks": {
+        "16630776153ce64c7c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Autumn Collection",
+            "heading_size": "h1"
+          }
+        },
+        "16630776153ce64c7c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>New season's favourite home textile products, chosen by you for your cosy cocoon!<\/p>"
+          }
+        },
+        "16630776153ce64c7c-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16630776153ce64c7c-0",
+        "16630776153ce64c7c-1",
+        "16630776153ce64c7c-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "16630654898abc6b94": {
+      "type": "slider-new",
+      "disabled": true,
+      "blocks": {
+        "d29e6860-187c-48c8-9c0a-c4705efd1662": {
+          "type": "card",
+          "settings": {
+            "product_item": "4-layer-muslin-blanket-white-striped"
+          }
+        },
+        "414ea90b-928e-42d1-8862-5a7d5ed61878": {
+          "type": "card",
+          "settings": {
+            "product_item": "classic-percale-core-bedding-set-sage-green"
+          }
+        },
+        "a8edc894-711a-475d-988a-d1f4510abf29": {
+          "type": "card",
+          "settings": {
+            "product_item": "classic-percale-core-bedding-set-navy-blue-with-white-piped-edge"
+          }
+        }
+      },
+      "block_order": [
+        "d29e6860-187c-48c8-9c0a-c4705efd1662",
+        "414ea90b-928e-42d1-8862-5a7d5ed61878",
+        "a8edc894-711a-475d-988a-d1f4510abf29"
+      ],
+      "settings": {
+        "navigation_amount": 4,
+        "navigation_color": "",
+        "title": "Products slider"
+      }
+    },
+    "1663077947f014b92e": {
+      "type": "multicolumn",
+      "blocks": {
+        "1663077947ffe7b3e3-0": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1663077947ffe7b3e3-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7_75303a14-b214-43a0-a86e-881b10925da3.jpg",
+            "title": "Seasonal refresh with nature inspired green",
+            "text": "<p>Sage green is perfect for year-round use. Made of 100% natural long-staple cotton, our bedding set has an inviting and cosy shade that a classic to elevate your bedroom.<\/p>",
+            "link_label": "",
+            "link": "shopify:\/\/products\/classic-percale-core-bedding-set-sage-green"
+          }
+        },
+        "1663077947ffe7b3e3-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663077947ffe7b3e3-0",
+        "1663077947ffe7b3e3-1",
+        "1663077947ffe7b3e3-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Shop Now",
+        "button_link": "shopify:\/\/products\/classic-percale-core-bedding-set-sage-green",
+        "swipe_on_mobile": false
+      }
+    },
+    "166311377840cdfe65": {
+      "type": "multicolumn",
+      "blocks": {
+        "1663113778ce012cea-0": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1663113778ce012cea-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Latest_Trustpilot.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "https:\/\/www.trustpilot.com\/review\/ocoza.com"
+          }
+        },
+        "1663113778ce012cea-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663113778ce012cea-0",
+        "1663113778ce012cea-1",
+        "1663113778ce012cea-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "16631051737d0b1b1f": {
+      "type": "multicolumn",
+      "blocks": {
+        "16631051739ae8e007-0": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16631051739ae8e007-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rsz_muslin_uni_dyed_brick_3.jpg",
+            "title": "Warm up your bedroom",
+            "text": "<p>Introducing colour is a great way to freshen up a space for a changing season! Made of 100% natural muslin cotton, our blanket is perfect for wrapping up or just to use as a bedspread.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16631051739ae8e007-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16631051739ae8e007-0",
+        "16631051739ae8e007-1",
+        "16631051739ae8e007-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Shop Now",
+        "button_link": "shopify:\/\/products\/4-layer-muslin-blanket-terracota",
+        "swipe_on_mobile": false
+      }
+    },
+    "166306684528723d01": {
+      "type": "collage",
+      "disabled": true,
+      "blocks": {
+        "1663066845a357f5e8-1": {
+          "type": "product",
+          "settings": {
+            "product": "classic-percale-core-bedding-set-burgundy",
+            "second_image": false,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        },
+        "b7e3cf50-afb4-45ac-9f20-75bebbb9e54f": {
+          "type": "product",
+          "settings": {
+            "product": "reversible-muslin-cotton-blanket-set-mint",
+            "second_image": false,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        },
+        "64893eb6-45c7-48e8-9019-9462ce0b2fd8": {
+          "type": "product",
+          "settings": {
+            "product": "boho-ethnic-cushion-cover-mint",
+            "second_image": false,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        }
+      },
+      "block_order": [
+        "1663066845a357f5e8-1",
+        "b7e3cf50-afb4-45ac-9f20-75bebbb9e54f",
+        "64893eb6-45c7-48e8-9019-9462ce0b2fd8"
+      ],
+      "settings": {
+        "heading": "Chosen by You",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
+    },
+    "1663067669b45dd262": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Autumn Favourites",
+        "img1": "shopify:\/\/shop_images\/Fair_Price_Finest_Quality_3c0646cc-1676-47f5-90cb-7ebfb610e005.png",
+        "whyBackground": "#fafafa",
+        "title1": "Fair Price, Finest Quality",
+        "desc1": "",
+        "img2": "shopify:\/\/shop_images\/Fast_and_Free_Shipping_3df11d3d-0908-4cd3-a21a-e3553ddcc7fc.png",
+        "title2": "Free Shipping over £50",
+        "desc2": "",
+        "img3": "shopify:\/\/shop_images\/30_Nights_Free_Trial_c7bed278-e215-4200-a8f0-753190e5a20a.png",
+        "title3": "Free Returns",
+        "desc3": "",
+        "img4": "shopify:\/\/shop_images\/Secure_Payment_e92d741e-6f5e-41ea-a68b-bb20f0768ab4.png",
+        "title4": "Buy Now Pay Later",
+        "desc4": "",
+        "img5": "shopify:\/\/shop_images\/Hypoallergenic_947e9807-e79c-4436-8320-0e6166cbdec9.png",
+        "title5": "No Pilling, Less Fading",
+        "desc5": "",
+        "img6": "shopify:\/\/shop_images\/100_Natural_Cotton_75cb0008-f808-492a-a025-6922f1e51755.png",
+        "title6": "All Natural Materials",
+        "desc6": "",
+        "img7": "shopify:\/\/shop_images\/low-climate-impact_572dfa2d-6ef7-43fb-8483-de1209a8cfc8.png",
+        "title7": "Zero Chemicals or Harmful Substances",
+        "desc7": "",
+        "collection": "autumn-collection",
+        "products_to_show": 12,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "1663113776694ce44a": {
+      "type": "apps",
+      "blocks": {
+        "19d4e395-016d-46dc-8ce0-54dfea6103e9": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "19d4e395-016d-46dc-8ce0-54dfea6103e9"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16630776151dbbcb34",
+    "16630654898abc6b94",
+    "1663077947f014b92e",
+    "166311377840cdfe65",
+    "16631051737d0b1b1f",
+    "166306684528723d01",
+    "1663067669b45dd262",
+    "1663113776694ce44a"
+  ]
+}

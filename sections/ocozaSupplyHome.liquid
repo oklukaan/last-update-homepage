@@ -1,0 +1,118 @@
+
+<div class="page-width">
+
+  <center><h2 class="wOcozT">WHY OCOZA?</h2></center>
+  
+<div id="shopify-section-template--15455006982402__1640218774911cfdf4" class="paage-width shopify-section spaced-section spaced-section--full-width birlesik"><link href="//cdn.shopify.com/s/files/1/0523/8865/9380/t/40/assets/component-image-with-text.css?v=18152649873245887537" rel="stylesheet" type="text/css" media="all">
+
+<div class="image-with-text page-awidth color-scheme-background-1">
+  <div class="image-with-text__grid color-background-1 grid grid--gapless grid--1-col grid--2-col-tablet gradient image-with-text__grid--reverse">
+    <div class="grid__item">
+      <div class="image-with-text__media image-with-text__media--adapt media" style="padding-bottom: 75.0%;">
+<img src="{{section.settings.img1 | img_url: "master" }}"
+             alt="" loading="lazy" width="716" height="700">      </div>
+    </div>
+    <div class="grid__item">
+      <div class="image-with-text__content image-with-text__content--adapt"><div class="image-with-text__text rte"><p>
+        
+        {{section.settings.text1}}
+        
+        </p></div></div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+<div id="shopify-section-template--15455006982402__1640219131ee59f4e1" class="shopify-section spaced-section spaced-section--full-width"><link href="//cdn.shopify.com/s/files/1/0523/8865/9380/t/40/assets/component-image-with-text.css?v=18152649873245887537" rel="stylesheet" type="text/css" media="all">
+
+<div class="image-with-text pagae-width color-scheme-background-1">
+  <div class="image-with-text__grid color-background-1 grid grid--gapless grid--1-col grid--2-col-tablet gradient image-with-text__grid--reverse">
+    <div class="grid__item">
+      <div class="image-with-text__media image-with-text__media--adapt media" style="padding-bottom: 97.76536312849161%;">
+        <img src="{{section.settings.img2 | img_url: "master" }}"
+             alt="" loading="lazy" width="716" height="700"></div>
+    </div>
+    <div class="grid__item">
+      <div class="image-with-text__content image-with-text__content--adapt"><div class="image-with-text__text rte"><p>
+        {{section.settings.text2}}
+        </p></div></div>
+    </div>
+  </div>
+</div>
+
+  </div>
+
+</div>
+
+<style>
+  @media(min-width:992px){
+  #shopify-section-template--15455006982402__1640218774911cfdf4 > div > div > div:nth-child(2){
+   width:65% !important;
+   max-width:65% !important;
+  }
+    #shopify-section-template--15455006982402__1640218774911cfdf4 > div > div > div:nth-child(1){
+   width:35% !important;
+   max-width:35% !important;
+  }
+  }
+  
+  .Supply{
+    margin-top:50px;
+  }
+  
+  @media(min-width:992px){
+  .Supply .page-width{
+    border: 1px solid black;
+    border-radius:25px;
+  }
+  }
+  
+  .wOcozT{
+    width: 200px;
+    background: white;
+    margin-top: -15px;
+}
+  
+</style>
+
+{% schema %}
+{
+  "name": "Supply",
+  "class": "Supply",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Supply"
+    },
+ {
+      "type": "textarea",
+      "id": "text1",
+      "default": "Text 1",
+      "label": "Text 1"
+    },
+ {
+      "type": "textarea",
+      "id": "text2",
+      "default": "Text 2",
+      "label": "Text 2"
+    },
+   {
+      "type": "image_picker",
+      "id": "img1",
+  	"label": "IMG"
+    },   {
+      "type": "image_picker",
+      "id": "img2",
+  	"label": "IMG"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Supply",
+      "category": "text"
+    }
+  ]
+}
+{% endschema %}

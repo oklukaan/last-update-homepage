@@ -1,0 +1,137 @@
+<div class="title-wrapper-with-link title-wrapper--self-padded-mobile">
+  <h2 class="collection-list-title">{{section.settings.baslik}}
+  </h2>
+</div>
+
+<div class="staticInstagram" style="{% if section.settings.goster == "evet" %}
+  
+                         {%else%}
+                         display: none !important;
+                         {%endif%}
+  
+                         "><img loading="lazy" src="{{section.settings.img1 | img_url: "master" }}" class="staIn" onclick="location.href='{{section.settings.url1}}';">
+
+  <img loading="lazy" src="{{section.settings.img2 | img_url: "master" }}" class="staIn" onclick="location.href='{{section.settings.url2}}';">
+
+  <img loading="lazy" src="{{section.settings.img3 | img_url: "master" }}" class="staIn" onclick="location.href='{{section.settings.url3}}';">
+
+  <img loading="lazy" src="{{section.settings.img4 | img_url: "master" }}" class="staIn" onclick="location.href='{{section.settings.url4}}';">
+
+
+</div>
+
+<style>
+
+  .staticInstagram {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .staIn {
+    padding: 25px;
+    margin-bottom: 15px;
+    width: 25%;
+    cursor: pointer;
+  }
+
+  @media(max-width:992px) {
+    .gg-instagram {
+      display: block;
+      margin: 0 auto;
+    }
+
+    .staIn {
+      padding: 4px;
+      margin-bottom: 0;
+      width: 50% !important;
+    }
+    .staticInstagram {
+      margin: 20px 12px 45px;
+    }
+
+
+  }
+  .collection-list-title:after {
+    content: "";
+    display: block;
+    width: 50px;
+    padding-top: 3px;
+    border-bottom: 3px solid;
+    border-color: #E7AD99;
+    margin: 0 auto;
+  }
+  .collection-list-title{
+    line-height:2;
+    text-transform:uppercase;
+  }
+</style>
+
+{% schema %}
+  {
+    "name": "Instagram (Static)",
+    "class": "staticinstagram",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Instagram (Static)"
+      },
+      {
+        "type": "radio",
+        "id": "goster",
+        "label": "Show Instagram Area",
+        "options": [
+          {
+            "value": "evet",
+            "label": "Yes"
+          }, {
+            "value": "",
+            "label": "No"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "id": "baslik",
+        "label": "Başlık"
+      },
+      {
+        "type": "text",
+        "id": "url1",
+        "label": "URL #1"
+      }, {
+        "type": "text",
+        "id": "url2",
+        "label": "URL #2"
+      }, {
+        "type": "text",
+        "id": "url3",
+        "label": "URL #3"
+      }, {
+        "type": "text",
+        "id": "url4",
+        "label": "URL #4"
+      }, {
+        "type": "image_picker",
+        "id": "img1",
+        "label": "IMG"
+      }, {
+        "type": "image_picker",
+        "id": "img2",
+        "label": "IMG"
+      }, {
+        "type": "image_picker",
+        "id": "img3",
+        "label": "IMG"
+      }, {
+        "type": "image_picker",
+        "id": "img4",
+        "label": "IMG"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Instagram (Static)",
+        "category": "text"
+      }
+    ]
+  }
+{% endschema %}

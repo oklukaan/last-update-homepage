@@ -1,0 +1,180 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false
+      }
+    },
+    "1653980431c62511fa": {
+      "type": "multicolumn",
+      "blocks": {
+        "cf732eb7-cc63-4a62-8735-2c83f55c6fe6": {
+          "type": "column",
+          "settings": {
+            "title": "Trend & Textured Robes",
+            "text": "<p>Made of fast-drying and absorbent 100% long-staple cotton, these robes have you feeling dry and warm as you walk out of a hotel shower or bath. They're made with a unique weave texture that looks great, too!<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1653980431970da542-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Latest_Trustpilot.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "https:\/\/www.trustpilot.com\/review\/ocoza.com"
+          }
+        }
+      },
+      "block_order": [
+        "cf732eb7-cc63-4a62-8735-2c83f55c6fe6",
+        "1653980431970da542-1"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "https:\/\/www.trustpilot.com\/review\/ocoza.com",
+        "swipe_on_mobile": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "collapse_on_larger_devices": true
+      }
+    },
+    "166032442715b46991": {
+      "type": "image-with-text",
+      "blocks": {
+        "1660324427417176d9-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "1660324427417176d9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our 100% long-staple cotton robes are perfect for post-shower or bath comfort. They're made with a natural weave that looks and feels great, and they're fast-drying and absorbent so you can stay comfortable all day long.<\/p>"
+          }
+        },
+        "1660324427417176d9-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop All Robes",
+            "button_link": "https:\/\/www.ocoza.com\/collections\/bathrobes"
+          }
+        }
+      },
+      "block_order": [
+        "1660324427417176d9-0",
+        "1660324427417176d9-1",
+        "1660324427417176d9-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Bathrobe_for_Men_I.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "16539805608cdf6f96": {
+      "type": "multicolumn",
+      "blocks": {
+        "1653980560d93a336b-0": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1653980560d93a336b-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/As_Seen_In_21d7eebe-11ac-4c09-a859-90c118e83a6a.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1653980560d93a336b-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1653980560d93a336b-0",
+        "1653980560d93a336b-1",
+        "1653980560d93a336b-2"
+      ],
+      "settings": {
+        "title": "As Seen In",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "1653981008aab6bf8b": {
+      "type": "vaatler",
+      "disabled": true,
+      "settings": {
+        "maintitle": "Our Promises",
+        "img1": "shopify:\/\/shop_images\/Fast_and_Free_Shipping_3df11d3d-0908-4cd3-a21a-e3553ddcc7fc.png",
+        "title1": "Free Shipping <br> *for orders over £50",
+        "desc1": "",
+        "img2": "shopify:\/\/shop_images\/30_Nights_Free_Trial_c7bed278-e215-4200-a8f0-753190e5a20a.png",
+        "title2": "Free Returns",
+        "desc2": "",
+        "title3": "Title 3",
+        "desc3": "Desc 3",
+        "title4": "Title 4",
+        "desc4": "Desc 4",
+        "title5": "Title 5",
+        "desc5": "Desc 5",
+        "title6": "Title 6",
+        "desc6": "Desc 6"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "1653980431c62511fa",
+    "product-grid",
+    "166032442715b46991",
+    "16539805608cdf6f96",
+    "1653981008aab6bf8b"
+  ]
+}

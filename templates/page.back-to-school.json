@@ -1,0 +1,220 @@
+{
+  "sections": {
+    "166144917622e3963c": {
+      "type": "rich-text",
+      "blocks": {
+        "16614491758afb2bc7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Back to School (or not!)",
+            "heading_size": "h2"
+          }
+        },
+        "16614491758afb2bc7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It’s finally time to say goodbye to our short and sweet summer and prepare to return to work. <\/p><p>Whether you're returning to work or your kids are preparing for a new school year, our naturally calming, high quality and fair priced bed and bath essentials will keep you and your family cosy and relaxed during this hectic time of the year.<\/p>"
+          }
+        },
+        "16614491758afb2bc7-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16614491758afb2bc7-0",
+        "16614491758afb2bc7-1",
+        "16614491758afb2bc7-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16612556057824f37d": {
+      "type": "multicolumn",
+      "blocks": {
+        "1661255605c3e26912-0": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1661255605c3e26912-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Trust-24-July-22.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1661255605c3e26912-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1661255605c3e26912-0",
+        "1661255605c3e26912-1",
+        "1661255605c3e26912-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "16612488396438605b": {
+      "type": "image-banner",
+      "blocks": {
+        "1661248839f0b9ac9a-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Use Code: backtoschool",
+            "heading_size": "medium",
+            "headerFontFamily": "",
+            "headerColor": "#1d3541",
+            "headerFontSize": -1000,
+            "headerMobileColor": "#ffffff",
+            "headersShownMobile": false
+          }
+        },
+        "1661248839f0b9ac9a-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "paragraphFontFamily": "",
+            "paragraphColor": "#ffffff",
+            "paragraphMobileColor": "#ffffff",
+            "paragsShownMobile": false
+          }
+        },
+        "1661248839f0b9ac9a-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "buttonFontFamily": "",
+            "buttonBackgroundColor": "#ffffff",
+            "buttonTextColor": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "1661248839f0b9ac9a-0",
+        "1661248839f0b9ac9a-1",
+        "1661248839f0b9ac9a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/banner-back.jpg",
+        "mobileBanner": "shopify:\/\/shop_images\/banner-back-2.jpg",
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1661248977bcb890f7": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Back to School Collection",
+        "img1": "shopify:\/\/shop_images\/Fair_Price_Finest_Quality_3c0646cc-1676-47f5-90cb-7ebfb610e005.png",
+        "whyBackground": "#fafafa",
+        "title1": "Fair Price, Finest Quality",
+        "desc1": "",
+        "img2": "shopify:\/\/shop_images\/Fast_and_Free_Shipping_3df11d3d-0908-4cd3-a21a-e3553ddcc7fc.png",
+        "title2": "Free Shipping over £50",
+        "desc2": "",
+        "img3": "shopify:\/\/shop_images\/30_Nights_Free_Trial_c7bed278-e215-4200-a8f0-753190e5a20a.png",
+        "title3": "Free Returns",
+        "desc3": "",
+        "img4": "shopify:\/\/shop_images\/Secure_Payment_e92d741e-6f5e-41ea-a68b-bb20f0768ab4.png",
+        "title4": "Buy Now Pay Later",
+        "desc4": "",
+        "img5": "shopify:\/\/shop_images\/Hypoallergenic_947e9807-e79c-4436-8320-0e6166cbdec9.png",
+        "title5": "No Pilling, Less Fading",
+        "desc5": "",
+        "img6": "shopify:\/\/shop_images\/100_Natural_Cotton_75cb0008-f808-492a-a025-6922f1e51755.png",
+        "title6": "All Natural Materials",
+        "desc6": "",
+        "img7": "shopify:\/\/shop_images\/low-climate-impact_572dfa2d-6ef7-43fb-8483-de1209a8cfc8.png",
+        "title7": "Zero Chemicals or Harmful Substances",
+        "desc7": "",
+        "collection": "back-to-school-22-collection",
+        "products_to_show": 12,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "1661449259d8f7e7af": {
+      "type": "apps",
+      "blocks": {
+        "8144c714-ff81-4e17-b1a3-a31be6f9d5f0": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "8144c714-ff81-4e17-b1a3-a31be6f9d5f0"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "166144917622e3963c",
+    "main",
+    "16612556057824f37d",
+    "16612488396438605b",
+    "1661248977bcb890f7",
+    "1661449259d8f7e7af"
+  ]
+}

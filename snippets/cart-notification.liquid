@@ -1,0 +1,67 @@
+{% comment %}
+    Renders cart notification
+
+    Accepts:
+    - color_scheme: {String} sets the color scheme of the notification (optional)
+
+    Usage:
+    {% render 'cart-notification' %}
+{% endcomment %}
+
+<cart-notification>
+  <div class="cart-notification-wrapper page-width{% if color_scheme %} color-{{ color_scheme }}{% endif %}">
+    <div id="cart-notification" class="cart-notification focus-inset" aria-modal="true" aria-label="{{ 'general.cart.item_added' | t }}" role="dialog" tabindex="-1">
+      <div class="cart-notification__header">
+        <h2 class="cart-notification__heading caption-large text-body">{%- render 'icon-checkmark' -%} {{ 'general.cart.item_added' | t }}</h2>
+        <button type="button" class="cart-notification__close modal__close-button link link--text focus-inset" aria-label="{{ 'accessibility.close' | t }}">
+          <svg class="icon icon-close" aria-hidden="true" focusable="false"><use href="#icon-close"></svg>
+        </button>
+      </div>
+      <div id="cart-notification-product" class="cart-notification-product"></div>
+      <div class="cart-notification__links">
+        <a href="{{ routes.cart_url }}" id="cart-notification-button" class="button button--secondary button--full-width"></a>
+        <form action="{{ routes.cart_url }}" method="post" id="cart-notification-form">
+          <button  onclick="dlCheckout()" class="button button--primary button--full-width" name="checkout">{{ 'sections.cart.checkout' | t }}</button>
+        </form>
+        <button type="button" class="link button-label">{{ 'general.continue_shopping' | t }}</button>
+      </div>
+    </div>
+  </div>
+</cart-notification>
+
+<!-- LeafGrow dataLayer checkout start -->
+  <script>
+      function dlCheckout(){
+      dataLayer.push({
+      event: 'dl_checkout',
+      ecommerce: {
+      currencyCode: shopCurrency,
+      checkout: {
+      actionField: {
+      step: 1,
+      revenue: {{ cart.total_price | divided_by: 100.00 }},
+      },
+      products : [{%- for item in cart.items -%}{
+      name: '{{ item.product.title }}',
+      variant: '{{ item.variant.title }}',
+      id: '{{ item.sku }}',
+      dimension2:'{{ item.product.id }}',
+      dimension3:'{{ item.variant_id }}',
+      price: {{ item.final_price | divided_by: 100.00 }},
+      brand: '{{ item.vendor }}',
+      category: '{{ item.product.type }}',
+      quantity: {{ item.quantity }},
+      image: '{{ item.image | image_url }}'
+      }{% unless forloop.last == true %},{% endunless %}{% endfor %}]
+      }
+      }
+      });
+      }
+  </script>
+<!-- End LeafGrow dataLayer checkout -->
+  
+{% style %}
+  .cart-notification {
+     display: none;
+  }
+{% endstyle %}

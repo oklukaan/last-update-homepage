@@ -1,0 +1,168 @@
+
+<div style="margin-top:35px; margin-bottom:0px; z-index:0;background-color:#eee;
+                 
+                 {% if section.settings.goster == "evet" %}
+                 
+                 {%else%}
+                 display: none !important;
+                 {%endif%}
+                 
+                 ">
+       <style>
+         @media (min-width: 990px) {
+           .whyOcoza2 {
+             background: #eee !important;
+             padding-top: 10px;
+             padding-bottom: 10px;
+             margin-top: 50px;
+             padding-bottom: 50px;
+             display: flex;
+             padding-left: 200px !important;
+             padding-right: 200px !important;
+             width: 100% !important;
+           }
+
+           .ocozaGrid {
+             display: flex;
+           }
+
+           .ocozaFt {
+             width: 30% !important;
+             align-self: center;
+           }
+
+           .ocozaGridMid {
+             flex-direction: column;
+             width: 60% !important;
+             margin-left: 20px;
+             margin-right: 20px;
+           }
+
+           .latest3Img {
+             width: 33% !important;
+             padding: 10px;
+           }
+
+           .ocozaGridLat {
+             align-self: center;
+             width: 60% !important;
+           }
+         }
+
+         @media (max-width: 990px) {
+           .whyOcoza2 {
+             padding-left: 20px !important;
+             padding-right: 20px !important;
+             width: 100% !important;
+             background: #eee !important;
+           }
+
+           .ocozaGrid {
+             display: flex;
+           }
+
+           .ocozaFt {
+             width: 100% !important;
+             align-self: center;
+           }
+
+           .ocozaGridMid {
+             flex-direction: column;
+             width: 100% !important;
+             padding-left: 20px;
+             padding-right: 20px;
+           }
+
+           .latest3Img {
+             width: 33% !important;
+             padding: 10px;
+           }
+
+           .ocozaGridLat {
+             align-self: center;
+             width: 100% !important;
+           }
+         }
+       </style>
+       <div class="whyOcoza whyOcoza2">
+         <div class="ocozaGrid ocozaFt">
+           <img src="{{section.settings.imgbanner | img_url: "master" }}" style="width:100%;">
+         </div>
+         <div class="ocozaGrid ocozaGridMid">
+           <h3>{{section.settings.text1 }}</h3>
+           <p style="font-size:14px !important; text">{{section.settings.text2 }}</p>
+         </div>
+         <div class="ocozaGrid ocozaGridLat">
+           <img class="latest3Img" src="{{section.settings.img1 | img_url: "master" }}" class="whyOcozaIMG">
+           <img class="latest3Img" src="{{section.settings.img2 | img_url: "master" }}" class="whyOcozaIMG">
+           <img class="latest3Img" src="{{section.settings.img3 | img_url: "master" }}" class="whyOcozaIMG">
+         </div>
+       </div>
+     </div> 
+
+
+
+{% schema %}
+{
+  "name": "Three Items",
+  "class": "threeItems",
+
+  "settings": [
+    {
+      "type": "header",
+      "content": "Three Items"
+    },
+  {
+ "type": "radio",
+  "id": "goster",
+  "label": "Show",
+  "options": [
+    {
+      "value": "evet",
+      "label": "Yes"
+    },
+{
+      "value": "",
+      "label": "No"
+    }
+]
+},
+  {
+      "type": "image_picker",
+      "id": "imgbanner",
+  	"label": "IMG Left"
+    },
+ 	{
+      "type": "textarea",
+      "id": "text1",
+      "default": "Heading",
+      "label": "Heading"
+    },
+ {
+      "type": "textarea",
+      "id": "text2",
+      "default": "Paragraph",
+      "label": "Paragraph"
+    },
+   {
+      "type": "image_picker",
+      "id": "img1",
+  	"label": "IMG Right 1"
+    },   {
+      "type": "image_picker",
+      "id": "img2",
+  	"label": "IMG Right 2"
+    },   {
+      "type": "image_picker",
+      "id": "img3",
+  	"label": "IMG Right 3"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Three Items",
+      "category": "text"
+    }
+  ]
+}
+{% endschema %}

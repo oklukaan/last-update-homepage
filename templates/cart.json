@@ -1,0 +1,68 @@
+{
+  "sections": {
+    "cart-items": {
+      "type": "main-cart-items",
+      "settings": {
+        "show_vendor": false
+      }
+    },
+    "cart-footer": {
+      "type": "main-cart-footer",
+      "blocks": {
+        "subtotal": {
+          "type": "subtotal",
+          "settings": {
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "subtotal",
+        "buttons"
+      ],
+      "settings": {
+        "show_cart_note": false
+      }
+    },
+    "featured-products": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "whyBackground": "#fafafa",
+        "title1": "Title 1",
+        "desc1": "Desc 1",
+        "title2": "Title 2",
+        "desc2": "Desc 2",
+        "title3": "Title 3",
+        "desc3": "Desc 3",
+        "title4": "Title 4",
+        "desc4": "Desc 4",
+        "title5": "Title 5",
+        "desc5": "Desc 5",
+        "title6": "Title 6",
+        "desc6": "Desc 6",
+        "title7": "Title 7",
+        "desc7": "Desc 7",
+        "collection": "bedding",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    }
+  },
+  "order": [
+    "cart-items",
+    "cart-footer",
+    "featured-products"
+  ]
+}

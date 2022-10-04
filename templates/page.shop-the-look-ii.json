@@ -1,0 +1,339 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "1663315372c055c183": {
+      "type": "multicolumn",
+      "blocks": {
+        "1663315371fd23377a-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Onsite-Size-I.jpg",
+            "title": "Green & Gold Bedding Bundle",
+            "text": "<p>From £84 GBP<\/p>",
+            "link_label": "Shop Now",
+            "link": "https:\/\/www.ocoza.com\/products\/green-creme-brule-bedding-bundle"
+          }
+        },
+        "1663315371fd23377a-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Second-Piped-Edge.jpg",
+            "title": "Peach  & White Bedding Bundle",
+            "text": "<p>From £179 GBP<\/p>",
+            "link_label": "Shop Now",
+            "link": "https:\/\/www.ocoza.com\/products\/peach-white-cotton-bedding-bundle"
+          }
+        },
+        "1663315371fd23377a-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Yello-Shop-the-Look.jpg",
+            "title": "Yellow & Grey & White Bedding Bundle",
+            "text": "<p>From £105 GBP<\/p>",
+            "link_label": "Shop Now",
+            "link": "https:\/\/www.ocoza.com\/products\/reversible-grey-yellow-white-sateen-bedding-bundle"
+          }
+        },
+        "192fb804-a8af-4617-909a-c3776d022bb2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_d253b0be-f3dd-441f-aca6-90a40cedbbdc.jpg",
+            "title": "Jade Green Piped Edge Bedding Bundle",
+            "text": "<p>From £164 GBP<\/p>",
+            "link_label": "Shop Now",
+            "link": "https:\/\/www.ocoza.com\/products\/jade-green-piped-edge-bedding-bundle"
+          }
+        },
+        "cd747853-3538-4b41-9dcb-2340f493eaff": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_b0b570dc-11bc-4d3d-980e-72ae3db44b03.jpg",
+            "title": "Carmine & Ecru Bedding Bundle",
+            "text": "<p>From £173 GBP<\/p>",
+            "link_label": "Shop Now",
+            "link": "https:\/\/www.ocoza.com\/products\/carmine-ecru-percale-muslin-cotton-blanket-bedding-bundle"
+          }
+        },
+        "db2f8edc-8973-41d7-b418-31b3737084e9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_5b997d75-474b-4d2e-83a2-9edf788d556e.jpg",
+            "title": "Anthracite & Blanket Bedding Bundle",
+            "text": "<p>From £180 GBP<\/p>",
+            "link_label": "Shop Now",
+            "link": "https:\/\/www.ocoza.com\/products\/anthracite-blanket-bedding-bundle"
+          }
+        },
+        "a587405f-c46c-47c8-bbd7-0bac38f58b5a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/White.jpg",
+            "title": "White Piped Edge Bedding Bundle",
+            "text": "<p>From £164 GBP<\/p>",
+            "link_label": "Shop Now",
+            "link": "https:\/\/www.ocoza.com\/products\/white-piped-edge-bedding-bundle"
+          }
+        },
+        "fb9b6fc3-d0fb-4888-90d4-7da28a1f5f13": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_4eda3c8b-ffe7-4136-b2a3-26ea18923efc.jpg",
+            "title": "Jade Green & Anthracite Piped Edge Bedding Bundle",
+            "text": "<p>From £138 GBP<\/p>",
+            "link_label": "Shop Now",
+            "link": "https:\/\/www.ocoza.com\/products\/jade-green-anthracite-piped-edge-throw-bedding-bundle"
+          }
+        },
+        "00e59f45-7933-4421-a313-2c57c7435db1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_787a8cec-0e8f-46e9-8501-923ab5f1477c.jpg",
+            "title": "Anthracite & Jade Green Piped Edge Bedding Bundle",
+            "text": "<p>From £104 GBP<\/p>",
+            "link_label": "Shop Now",
+            "link": "https:\/\/www.ocoza.com\/products\/anthracite-jade-green-piped-edge-bedding-bundle"
+          }
+        }
+      },
+      "block_order": [
+        "1663315371fd23377a-0",
+        "1663315371fd23377a-1",
+        "1663315371fd23377a-2",
+        "192fb804-a8af-4617-909a-c3776d022bb2",
+        "cd747853-3538-4b41-9dcb-2340f493eaff",
+        "db2f8edc-8973-41d7-b418-31b3737084e9",
+        "a587405f-c46c-47c8-bbd7-0bac38f58b5a",
+        "fb9b6fc3-d0fb-4888-90d4-7da28a1f5f13",
+        "00e59f45-7933-4421-a313-2c57c7435db1"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "1663322023dcb3e9e6": {
+      "type": "multicolumn",
+      "blocks": {
+        "16633220239a183252-0": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_b0b570dc-11bc-4d3d-980e-72ae3db44b03.jpg",
+            "title": "Carmine & Ecru Bedding Bundle",
+            "text": "<p>From £173 GBP<\/p>",
+            "link_label": "Shop Now",
+            "link": "https:\/\/www.ocoza.com\/products\/carmine-ecru-percale-muslin-cotton-blanket-bedding-bundle"
+          }
+        },
+        "16633220239a183252-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/White.jpg",
+            "title": "White Piped Edge Bedding Bundle",
+            "text": "<p>From £164 GBP<\/p>",
+            "link_label": "Shop Now",
+            "link": "https:\/\/www.ocoza.com\/products\/white-piped-edge-bedding-bundle"
+          }
+        },
+        "16633220239a183252-1": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_4eda3c8b-ffe7-4136-b2a3-26ea18923efc.jpg",
+            "title": "Jade Green & Anthracite Piped Edge Bedding Bundle",
+            "text": "<p>From £138 GBP<\/p>",
+            "link_label": "Shop Now",
+            "link": "https:\/\/www.ocoza.com\/products\/jade-green-anthracite-piped-edge-throw-bedding-bundle"
+          }
+        }
+      },
+      "block_order": [
+        "16633220239a183252-0",
+        "16633220239a183252-2",
+        "16633220239a183252-1"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "1663921458935379ab": {
+      "type": "multicolumn",
+      "blocks": {
+        "1663921458b19984fd-0": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_d253b0be-f3dd-441f-aca6-90a40cedbbdc.jpg",
+            "title": "Jade Green Piped Edge Bedding Bundle",
+            "text": "<p>From £164 GBP<\/p>",
+            "link_label": "Shop Now",
+            "link": "https:\/\/www.ocoza.com\/products\/jade-green-piped-edge-bedding-bundle"
+          }
+        },
+        "1663921458b19984fd-1": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Onsite-Size.jpg",
+            "title": "Navy Blue Piped Edge Bedding Bundle",
+            "text": "<p>From £190 GBP<\/p>",
+            "link_label": "Shop Now",
+            "link": ""
+          }
+        },
+        "1663921458b19984fd-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Yello-Shop-the-Look.jpg",
+            "title": "Yellow & Grey & White Bedding Bundle",
+            "text": "<p>From £105 GBP<\/p>",
+            "link_label": "Shop Now",
+            "link": "https:\/\/www.ocoza.com\/products\/reversible-grey-yellow-white-sateen-bedding-bundle"
+          }
+        },
+        "047263e1-6f13-4845-975c-c1d0b7904a13": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_5b997d75-474b-4d2e-83a2-9edf788d556e.jpg",
+            "title": "Anthracite & Blanket Bedding Bundle",
+            "text": "<p>From £180 GBP<\/p>",
+            "link_label": "Shop Now",
+            "link": "https:\/\/www.ocoza.com\/products\/anthracite-blanket-bedding-bundle"
+          }
+        }
+      },
+      "block_order": [
+        "1663921458b19984fd-0",
+        "1663921458b19984fd-1",
+        "1663921458b19984fd-2",
+        "047263e1-6f13-4845-975c-c1d0b7904a13"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "1664218004ae1dd405": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "1664218004f14440a6-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dene-1.jpg",
+            "title": "Grey Bedding Bundle",
+            "text": "<p>From £100 GBP<\/p>",
+            "link_label": "Shop Now",
+            "link": ""
+          }
+        },
+        "1664218004f14440a6-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1664218004f14440a6-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664218004f14440a6-0",
+        "1664218004f14440a6-1",
+        "1664218004f14440a6-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "1664177703fd15d954": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Bestsellers",
+        "img1": "shopify:\/\/shop_images\/Fair_Price_Finest_Quality_3c0646cc-1676-47f5-90cb-7ebfb610e005.png",
+        "whyBackground": "#fafafa",
+        "title1": "Fair Price, Finest Quality",
+        "desc1": "",
+        "img2": "shopify:\/\/shop_images\/Fast_and_Free_Shipping_3df11d3d-0908-4cd3-a21a-e3553ddcc7fc.png",
+        "title2": "Free Shipping over £50",
+        "desc2": "",
+        "img3": "shopify:\/\/shop_images\/30_Nights_Free_Trial_c7bed278-e215-4200-a8f0-753190e5a20a.png",
+        "title3": "Free Returns",
+        "desc3": "",
+        "img4": "shopify:\/\/shop_images\/Secure_Payment_e92d741e-6f5e-41ea-a68b-bb20f0768ab4.png",
+        "title4": "Buy Now Pay Later",
+        "desc4": "",
+        "img5": "shopify:\/\/shop_images\/Hypoallergenic_947e9807-e79c-4436-8320-0e6166cbdec9.png",
+        "title5": "No Pilling, Less Fading",
+        "desc5": "",
+        "img6": "shopify:\/\/shop_images\/100_Natural_Cotton_75cb0008-f808-492a-a025-6922f1e51755.png",
+        "title6": "All Natural Materials",
+        "desc6": "",
+        "img7": "shopify:\/\/shop_images\/low-climate-impact_572dfa2d-6ef7-43fb-8483-de1209a8cfc8.png",
+        "title7": "Zero Chemicals or Harmful Substances",
+        "desc7": "",
+        "collection": "bed-linen",
+        "products_to_show": 8,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1663315372c055c183",
+    "1663322023dcb3e9e6",
+    "1663921458935379ab",
+    "1664218004ae1dd405",
+    "1664177703fd15d954"
+  ]
+}

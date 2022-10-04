@@ -1,0 +1,152 @@
+.banner__content{
+    justify-content:start !important;
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+    font-size:30px !important; 
+}
+.slideshow__text.banner__box{
+    max-width: 85rem;
+    align-items: baseline;
+}
+.swiper-pagination-bullets{
+    bottom: 30px !important;
+}
+.banner__heading.h1{
+    font-family:"Bodoni 72",serif !important;   
+}
+.custom_seperator{
+    width: 40px;
+    height: 0px;
+    border: 3px solid #E7AD99;
+}
+.swiper {
+    width: 100%;
+    height: 600px;
+  }
+.banner__text{
+    color: white;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.swiper-button-next, .swiper-button-prev{
+    color: white !important;
+}
+.swiper-button-prev{
+    margin-left: 70px;
+}
+.swiper-button-next{
+    margin-right: 70px;
+}
+
+.swiper-pagination-bullet-active{
+    background:white !important;
+}
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+    bottom:25px !important;
+}
+.slideshow__media img{
+    z-index: -1;
+}
+.banner__buttons .button--secondary{
+    padding: 16px 40px;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: normal;
+}
+.slideshow__media:first-child{
+    background: none !important;
+}
+.slideshow__media{
+    background:linear-gradient(90deg, #000F08 0%, rgba(0, 15, 8, 0) 57.26%);
+}
+/* a bit hacky, but the only quick  way to achieve that peach colored line with a different font-size in the second slide */
+#Slide-template--16161702084873__1664264475358b9513-2 .slideshow__text .banner__text:nth-child(4) {
+    color: #E7AD99;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 10px;
+}
+
+.banner__buttons a{
+    padding: 16px 40px;
+    box-shadow: none;
+    border: solid white 1px;
+    margin-top: 35px;
+    color: white;
+}
+
+@media screen and (min-width:750px) {
+    .swiper-button-prev,
+    .swiper-button-next{
+        display: flex !important;
+        position: absolute;        
+    }
+    .slideshow__text-wrapper.banner__content{
+        padding:0;
+        margin-left:170px;
+        margin-right: auto;
+    }
+    .banner__heading.h1{
+        font-weight: 700;
+        font-size:48px;
+        line-height: 48px;
+    }
+    .banner__subtitle{
+        font-family:"Bodoni Moda",serif !important;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .banner__text{
+        font-family: 'Avenir Next';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 25px;
+    }
+    .banner__buttons{
+        font-family: 'Avenir Next';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 25px;
+    }
+}
+@media screen and (max-width:1024px) {
+    .swiper-button-next{
+        left: 1300px !important;
+    }
+    .swiper-button-next{
+        left: 980px !important;
+    }
+    .swiper-button-prev{
+        left: 30px !important;
+    }
+}
+@media screen and (max-width:750px){
+    .banner__heading.h1, .banner__subtitle,  .banner__text{
+        text-align: left;
+    }
+    .slideshow__slide {
+        height: 660px !important;
+    }
+    .prev, .next{
+        display: none;
+    }
+    .banner__text{
+        margin-top: 0px !important;
+        line-height: 24px;
+    }
+    .custom_seperator{
+        margin-bottom: 20px;
+    }
+    .banner__heading.h1{
+        font-weight: 700;
+        font-size:40px;
+        line-height: 40px;
+        font-style: normal;
+    }
+}

@@ -1,0 +1,583 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true
+      }
+    },
+    "16427578771a345f39": {
+      "type": "multicolumn",
+      "blocks": {
+        "1642757877c27a77eb-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Post_Shower.jpg",
+            "title": "",
+            "text": "<p>Clean lines, no distractions, highly absorbent, soft, and durable.<\/p>",
+            "link_label": "Post Shower & Quick Dry",
+            "link": "shopify:\/\/collections\/post-shower-quick-dry"
+          }
+        },
+        "1642757877c27a77eb-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Collection_Landing-Page.jpg",
+            "title": "",
+            "text": "<p>Ideal dressing gowns to just lounging at home all day.<\/p>",
+            "link_label": "Mid-Day & All-Day Lounge",
+            "link": "shopify:\/\/collections\/mid-day-all-day-lounge-robes"
+          }
+        },
+        "1642757877c27a77eb-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/II-Collection_Landing-Page.jpg",
+            "title": "",
+            "text": "<p>All you need is you, your robe, and your face mask. It's that simple.<\/p>",
+            "link_label": "Spa Time at Home",
+            "link": "shopify:\/\/collections\/spa-time-at-home-robes"
+          }
+        }
+      },
+      "block_order": [
+        "1642757877c27a77eb-0",
+        "1642757877c27a77eb-1",
+        "1642757877c27a77eb-2"
+      ],
+      "settings": {
+        "title": "How do you like your robe?",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "Shop All Robes",
+        "button_link": "shopify:\/\/collections\/bathrobes",
+        "swipe_on_mobile": false
+      }
+    },
+    "16539012808b79b670": {
+      "type": "multicolumn",
+      "blocks": {
+        "16539012800d135be9-0": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/VOGUE_LOGO.svg_1f047566-9bdd-4405-b967-249510d462d4.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16539012800d135be9-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/As_Seen_In_21d7eebe-11ac-4c09-a859-90c118e83a6a.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16539012800d135be9-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16539012800d135be9-0",
+        "16539012800d135be9-1",
+        "16539012800d135be9-2"
+      ],
+      "settings": {
+        "title": "As Seen In",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "1642758456520ccea5": {
+      "type": "multicolumn",
+      "blocks": {
+        "1642758456b33bb19b-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Soft_and_Classic_II.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Classic & Everyday Robes",
+            "link": "shopify:\/\/collections\/soft-classic-robes"
+          }
+        },
+        "1642758456b33bb19b-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ribbed_Cotton_Robe.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Cosy & Plush Robes",
+            "link": "shopify:\/\/collections\/cosy-plush-robes"
+          }
+        },
+        "1642758456b33bb19b-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Muslin_Robe.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Pastel Lovers & Lightweight Robes",
+            "link": "shopify:\/\/collections\/all-day-lightweight-robes"
+          }
+        },
+        "97cfab18-6ece-4c53-ae75-77e3f6d86152": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hooded_Cotton_Robe.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Trend & Textured Robes",
+            "link": "shopify:\/\/collections\/stylish-and-warm-robes"
+          }
+        }
+      },
+      "block_order": [
+        "1642758456b33bb19b-0",
+        "1642758456b33bb19b-1",
+        "1642758456b33bb19b-2",
+        "97cfab18-6ece-4c53-ae75-77e3f6d86152"
+      ],
+      "settings": {
+        "title": "Shop by Feel",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 16,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "collapse_on_larger_devices": false
+      }
+    },
+    "1642775523057df591": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "1642775523d78a90ab-0": {
+          "type": "heading",
+          "settings": {
+            "heading": ""
+          }
+        },
+        "1642775523d78a90ab-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Choose by Colour<\/strong><\/p><p>Vibrant colours to dopamine your mood or pastel and earthy tones to enrich your calmness. Or maybe go with a classic white and grey for a seasonless and timeless choice.<\/p><p><\/p><p>Discover your robe options now.<\/p>"
+          }
+        },
+        "1642775523d78a90ab-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Robes by Colour",
+            "button_link": "shopify:\/\/collections\/bathrobes"
+          }
+        }
+      },
+      "block_order": [
+        "1642775523d78a90ab-0",
+        "1642775523d78a90ab-1",
+        "1642775523d78a90ab-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Colourful_Muslin_Robes.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "1653904224890f8c79": {
+      "type": "vaatler",
+      "disabled": true,
+      "settings": {
+        "maintitle": "Our Difference",
+        "img1": "shopify:\/\/shop_images\/Fair_Price_Finest_Quality_3c0646cc-1676-47f5-90cb-7ebfb610e005.png",
+        "title1": "Fair Price <br> Finest Quality",
+        "desc1": "",
+        "img2": "shopify:\/\/shop_images\/OEKO-TEX_Certified_2b19ce26-3040-4603-b3f6-a87fbdc0de47.png",
+        "title2": "OEKO-TEX <br> Certified",
+        "desc2": "",
+        "img3": "shopify:\/\/shop_images\/Free_of_harsh_chemicals_6c82cf24-c55a-4776-9926-43f8f117c094.png",
+        "title3": "Free of<br> Chemicals",
+        "desc3": "",
+        "img4": "shopify:\/\/shop_images\/100_Natural_Cotton_75cb0008-f808-492a-a025-6922f1e51755.png",
+        "title4": "100% Natural <br> Cotton",
+        "desc4": "",
+        "img5": "shopify:\/\/shop_images\/low-climate-impact_572dfa2d-6ef7-43fb-8483-de1209a8cfc8.png",
+        "title5": "Low Climate <br> Impact",
+        "desc5": "",
+        "img6": "shopify:\/\/shop_images\/plastic-free-packaging_95c46919-a893-4222-ac9b-1a9d9e742ca5.png",
+        "title6": "Plastic Free <br> Packaging",
+        "desc6": ""
+      }
+    },
+    "1653904750c46ddba4": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "16539047507c648951-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium",
+            "headerFontFamily": "",
+            "headerColor": "#ffffff",
+            "headerMobileColor": "#ffffff",
+            "headersShownMobile": false
+          }
+        },
+        "16539047507c648951-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "paragraphFontFamily": "",
+            "paragraphFontStyle": "normal",
+            "paragraphColor": "#ffffff",
+            "paragraphMobileColor": "#ffffff",
+            "paragsShownMobile": false
+          }
+        },
+        "16539047507c648951-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "buttonFontFamily": "",
+            "buttonBackgroundColor": "#ffffff",
+            "buttonTextColor": "#000000",
+            "buttonMobileBackgroundColor": "#ffffff",
+            "buttonMobileTextColor": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "16539047507c648951-0",
+        "16539047507c648951-1",
+        "16539047507c648951-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Our_Promises.png",
+        "image_height": "small",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "center",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "16427777511c973299": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "1642777751845d4222-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Our_Promises.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1642777751845d4222-1": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1642777751845d4222-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1642777751845d4222-0",
+        "1642777751845d4222-1",
+        "1642777751845d4222-2"
+      ],
+      "settings": {
+        "title": "Choose by Colour",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "1642963005255874f6": {
+      "type": "image-banner",
+      "blocks": {
+        "1642963005f87f0f45-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "medium",
+            "headerFontFamily": "",
+            "headerColor": "#ffffff",
+            "headerMobileColor": "#ffffff",
+            "headersShownMobile": false
+          }
+        },
+        "1642963005f87f0f45-1": {
+          "type": "text",
+          "settings": {
+            "text": "You deserve to feel good in your own skin. Ocoza robes are made of 100% long-staple cotton.  They are lightweight,  dry quickly and keep you warm, no matter what the weather is like. Choose from a variety of colours to find the one that suits you now - Choose one of our radiant colors to elevate your mood or go for the  earthy hues to boost your serenity.",
+            "paragraphFontFamily": "",
+            "paragraphFontStyle": "normal",
+            "paragraphColor": "#ffffff",
+            "paragraphMobileColor": "#ffffff",
+            "paragsShownMobile": false
+          }
+        },
+        "1642963005f87f0f45-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Shop by Colour",
+            "button_link_2": "shopify:\/\/collections\/bathrobes",
+            "button_style_secondary_2": false,
+            "buttonFontFamily": "",
+            "buttonBackgroundColor": "#ffffff",
+            "buttonTextColor": "#000000",
+            "buttonMobileBackgroundColor": "#ffffff",
+            "buttonMobileTextColor": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "1642963005f87f0f45-0",
+        "1642963005f87f0f45-1",
+        "1642963005f87f0f45-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Other-Robes.jpg",
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": false,
+        "image_overlay_opacity": 20,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
+      }
+    },
+    "16539799326bb02827": {
+      "type": "multicolumn",
+      "blocks": {
+        "1653979932652bb1c3-0": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1653979932652bb1c3-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Latest_Trustpilot.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "https:\/\/www.trustpilot.com\/review\/ocoza.com"
+          }
+        },
+        "1653979932652bb1c3-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1653979932652bb1c3-0",
+        "1653979932652bb1c3-1",
+        "1653979932652bb1c3-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "https:\/\/www.trustpilot.com\/review\/ocoza.com",
+        "swipe_on_mobile": false
+      }
+    },
+    "1653903350fa4590bd": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured collection",
+        "img1": "shopify:\/\/shop_images\/Fair_Price_Finest_Quality_3c0646cc-1676-47f5-90cb-7ebfb610e005.png",
+        "whyBackground": "#fafafa",
+        "title1": "Fair Price, Finest Quality",
+        "desc1": "- Our products are directly delivered to you from the best manufacturers, modernising the centuries-long tradition of cotton growing and weaving in Anatolia. With no middleman involved and shorter travel distances, you pay less for superior quality products.",
+        "img2": "shopify:\/\/shop_images\/Fast_and_Free_Shipping_3df11d3d-0908-4cd3-a21a-e3553ddcc7fc.png",
+        "title2": "Free Shipping Express",
+        "desc2": "- We partner with UPS to offer free express shipping and you'll receive your orders in around 4 days!",
+        "img3": "shopify:\/\/shop_images\/30_Nights_Free_Trial_c7bed278-e215-4200-a8f0-753190e5a20a.png",
+        "title3": "Free Returns",
+        "desc3": "- We are confident you'll love your Ocoza products. But if you don't for a reason, we got you covered. We have a 30 day return policy.",
+        "img4": "shopify:\/\/shop_images\/Secure_Payment_e92d741e-6f5e-41ea-a68b-bb20f0768ab4.png",
+        "title4": "Secure Payment",
+        "desc4": "- We accept all major credit and debit cards, including PayPal, Apple Pay, and Google Pay.",
+        "img5": "shopify:\/\/shop_images\/100_Natural_Cotton_75cb0008-f808-492a-a025-6922f1e51755.png",
+        "title5": "100% Long Staple Cotton",
+        "desc5": "- All Ocoza products are produced from 100% long-staple cotton, which makes them super soft and long-lasting. Long-staple cotton does not pill, fray less and even fades less.",
+        "img6": "shopify:\/\/shop_images\/Hypoallergenic_947e9807-e79c-4436-8320-0e6166cbdec9.png",
+        "title6": "Hypoallergenic",
+        "desc6": "- 100% Cotton naturally supports an uninterrupted, healthier sleep cycle followed by better and happier mornings.",
+        "img7": "shopify:\/\/shop_images\/OEKO-TEX_Certified_2b19ce26-3040-4603-b3f6-a87fbdc0de47.png",
+        "title7": "Oeko-Tex Certified",
+        "desc7": "- All our products have Oeko-tex certificate, delivering intimate home goods without any chemicals or other harmful substances.",
+        "collection": "bathrobes",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "1656693286ecbde8e0": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "img1": "shopify:\/\/shop_images\/Fair_Price_Finest_Quality_3c0646cc-1676-47f5-90cb-7ebfb610e005.png",
+        "whyBackground": "#fafafa",
+        "title1": "Fair Price, Finest Quality",
+        "desc1": "",
+        "img2": "shopify:\/\/shop_images\/Fast_and_Free_Shipping_3df11d3d-0908-4cd3-a21a-e3553ddcc7fc.png",
+        "title2": "Free Shipping over £50",
+        "desc2": "",
+        "img3": "shopify:\/\/shop_images\/30_Nights_Free_Trial_c7bed278-e215-4200-a8f0-753190e5a20a.png",
+        "title3": "Free Returns",
+        "desc3": "",
+        "img4": "shopify:\/\/shop_images\/Secure_Payment_e92d741e-6f5e-41ea-a68b-bb20f0768ab4.png",
+        "title4": "Buy Now Pay Later",
+        "desc4": "",
+        "img5": "shopify:\/\/shop_images\/Hypoallergenic_947e9807-e79c-4436-8320-0e6166cbdec9.png",
+        "title5": "No Pilling, Less Fading",
+        "desc5": "",
+        "img6": "shopify:\/\/shop_images\/100_Natural_Cotton_75cb0008-f808-492a-a025-6922f1e51755.png",
+        "title6": "All Natural Materials",
+        "desc6": "",
+        "img7": "shopify:\/\/shop_images\/low-climate-impact_572dfa2d-6ef7-43fb-8483-de1209a8cfc8.png",
+        "title7": "Zero Chemicals or Harmful Substances",
+        "desc7": "",
+        "collection": "bathrobes",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "165390792577982d64": {
+      "type": "apps",
+      "blocks": {
+        "ad59e540-b750-4419-89ff-67293f7bd9dd": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "ad59e540-b750-4419-89ff-67293f7bd9dd"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "16427578771a345f39",
+    "16539012808b79b670",
+    "1642758456520ccea5",
+    "product-grid",
+    "1642775523057df591",
+    "1653904224890f8c79",
+    "1653904750c46ddba4",
+    "16427777511c973299",
+    "1642963005255874f6",
+    "16539799326bb02827",
+    "1653903350fa4590bd",
+    "1656693286ecbde8e0",
+    "165390792577982d64"
+  ]
+}

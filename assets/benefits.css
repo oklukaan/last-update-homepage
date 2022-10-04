@@ -1,0 +1,81 @@
+@media (max-width:990px){
+#shopify-section-template--15455006982402__1640216444d3e4538d .module--homepage-principles .wrapper .grid--principle-icons .grid__item--icon  {
+    width: 33%!important;
+    display: flex!important;
+    align-items: center!important;
+    text-align: center;
+    justify-content: center;
+  flex-direction: column;
+ flex-wrap: wrap;
+  margin-top:20px;
+}
+  
+  
+  #module--homepage-principles > div > div.grid--flex.grid--principle-icons.medium-up--show-flex{
+   display: flex; 
+     flex-wrap: wrap;
+  }
+}
+
+@media (min-width:990px){
+  #shopify-section-template--15455006982402__1640216444d3e4538d .module--homepage-principles .wrapper .grid--principle-icons .grid__item--icon   {
+      width: 100%  !important;
+      display: flex  !important;
+      align-items: center  !important;
+      text-align: center;
+      flex-direction: column;
+      justify-content: normal !important;
+  }
+  .grid--flex.grid--principle-icons.medium-up--show-flex {
+    display: flex;
+    justify-content:space-around;
+    text-align:center;
+    margin: 40px 45px;
+    padding-bottom: 25px;
+  }
+  
+    #shopify-section-template--15455006982402__1640216444d3e4538d .module-title{
+     
+      padding:40px 0 40px 0;
+      font-weight:bold;
+      
+    }
+  
+}
+
+@media (max-width:990px){
+  #shopify-section-template--16161702084873__1640218375dc41dfce .module--homepage-principles .wrapper .grid--principle-icons .grid__item--icon  {
+    width: 50%!important;
+    display: flex!important;
+    align-items: center!important;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+}
+
+@media (min-width:990px){
+  #shopify-section-template--16161702084873__1640218375dc41dfce .module--homepage-principles .wrapper .grid--principle-icons .grid__item--icon  {
+      width: 100%  !important;
+      display: flex  !important;
+      align-items: center  !important;
+      text-align: center;
+      flex-direction: column;
+      justify-content: normal !important;
+
+  }
+  .grid--flex.grid--principle-icons.medium-up--show-flex {
+    display: flex;
+}
+  /*
+    #shopify-section-template--16161702084873__1640218375dc41dfce .module-title{
+     
+      padding:40px 0 40px 0;
+      font-weight:bold;
+      
+    }*/
+  
+}
+
+

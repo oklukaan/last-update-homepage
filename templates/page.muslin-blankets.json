@@ -1,0 +1,262 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16566138151bec973c": {
+      "type": "featured-product",
+      "blocks": {
+        "16566138158d463a9c-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "16566138158d463a9c-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "16566138158d463a9c-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "16566138158d463a9c-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "16566138158d463a9c-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown"
+          }
+        },
+        "16566138158d463a9c-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "16566138158d463a9c-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "16566138158d463a9c-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "3fb208cc-3e33-4dc2-8660-56fc7a9d635d": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        },
+        "9b4b1c16-11a6-4131-bece-27f04cf9c325": {
+          "type": "text",
+          "settings": {
+            "text": "Available in 8 colours",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "16566138158d463a9c-0",
+        "16566138158d463a9c-1",
+        "16566138158d463a9c-2",
+        "16566138158d463a9c-3",
+        "16566138158d463a9c-4",
+        "16566138158d463a9c-5",
+        "16566138158d463a9c-6",
+        "16566138158d463a9c-7",
+        "3fb208cc-3e33-4dc2-8660-56fc7a9d635d",
+        "9b4b1c16-11a6-4131-bece-27f04cf9c325"
+      ],
+      "settings": {
+        "product": "4-layer-muslin-blanket-terracota",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "1656613818640db331": {
+      "type": "collage",
+      "blocks": {
+        "1656613818564d3480-1": {
+          "type": "product",
+          "settings": {
+            "product": "percale-core-bedding-set-dark-grey",
+            "second_image": false,
+            "image_padding": true,
+            "secondary_background": false
+          }
+        },
+        "eeb8e9ac-e860-4515-8434-0d082e4426fb": {
+          "type": "product",
+          "settings": {
+            "product": "lavish-sateen-duvet-cover-set-cream",
+            "second_image": false,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        },
+        "233ce73f-08d9-4991-ba43-2baa85c682df": {
+          "type": "product",
+          "settings": {
+            "product": "classic-percale-fitted-sheet-set-gold",
+            "second_image": false,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        }
+      },
+      "block_order": [
+        "1656613818564d3480-1",
+        "eeb8e9ac-e860-4515-8434-0d082e4426fb",
+        "233ce73f-08d9-4991-ba43-2baa85c682df"
+      ],
+      "settings": {
+        "heading": "Complete the Look",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
+    },
+    "1656762555eaa9f04e": {
+      "type": "multicolumn",
+      "blocks": {
+        "1656762555cbc50e6f-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/As_Seen_In_21d7eebe-11ac-4c09-a859-90c118e83a6a.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1656762555cbc50e6f-1"
+      ],
+      "settings": {
+        "title": "As Seen In",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "1656614202d3768c9d": {
+      "type": "image-with-text",
+      "blocks": {
+        "1656614202b8200518-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Colour Guide"
+          }
+        },
+        "1656614202b8200518-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Anthracite: Arty yet calm<\/p><p>Grey Striped: The perfect colour combo; timeless and suitable for mix and match.<\/p><p>Saffron: The colour of the sun with a soothing effect.<\/p><p>Natural: Smooth, calm and charming<\/p><p>Terracotta: Season's best! Colour dopamine for your bedroom.<\/p><p>White: A refreshing and classic; will never go out of style.<\/p><p>White Striped: Fresh breath to your bedroom<\/p>"
+          }
+        },
+        "1656614202b8200518-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1656614202b8200518-0",
+        "1656614202b8200518-1",
+        "1656614202b8200518-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_1.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "1656762466ee48e240": {
+      "type": "rich-text",
+      "blocks": {
+        "1656762466e988f59b-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "1656762466e988f59b-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "1656762466e988f59b-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop All",
+            "button_link": "shopify:\/\/collections\/blankets-bedspreads",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1656762466e988f59b-0",
+        "1656762466e988f59b-1",
+        "1656762466e988f59b-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "165676272973d18b26": {
+      "type": "apps",
+      "blocks": {
+        "39a42218-7f08-44a9-bd80-a00cfaf8fc45": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "39a42218-7f08-44a9-bd80-a00cfaf8fc45"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16566138151bec973c",
+    "1656613818640db331",
+    "1656762555eaa9f04e",
+    "1656614202d3768c9d",
+    "1656762466ee48e240",
+    "165676272973d18b26"
+  ]
+}

@@ -1,0 +1,24 @@
+name: Deploy Staging Theme
+
+on:
+  pull_request_review:
+    types: [submitted]
+
+jobs:
+  deploy:
+    name: Deploy Develop Testing Theme
+    if: github.event.pull_request.base.ref == 'main' && github.event.review.state == 'approved'
+    runs-on: ubuntu-latest
+    steps:
+      # basically git clone
+      - uses: actions/checkout@v2
+      # - run: npm install
+      # - run: npm run build
+      # deploy shopify theme
+      - uses: pgrimaud/action-shopify@2.2.2
+        env:
+          SHOPIFY_PASSWORD: ${{ secrets.SHOPIFY_STORE_PASSWORD }}
+          SHOPIFY_STORE_URL: ${{ secrets.SHOPIFY_STORE_URL }}
+          SHOPIFY_THEME_ID: ${{ secrets.SHOPIFY_STAGING_THEME_ID }}
+        with:
+          args: --ignored-file=config/settings_data.json --ignored-file=locales/*

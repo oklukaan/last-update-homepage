@@ -1,0 +1,206 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "c864e2e7-d007-443a-9a51-cbfbf843f5ea": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "subtitle",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "share",
+        "c864e2e7-d007-443a-9a51-cbfbf843f5ea"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "scarcityText": "Selling Fast",
+        "scarcityTextColor": "#ff0000",
+        "scarcityFontSize": 16
+      }
+    },
+    "1638575617ba153af2": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured Products",
+        "img1": "shopify:\/\/shop_images\/Fair_Price_Finest_Quality.png",
+        "whyBackground": "#fafafa",
+        "title1": "Fair Price, Finest Quality",
+        "desc1": "",
+        "img2": "shopify:\/\/shop_images\/Fast_and_Free_Shipping.png",
+        "title2": "Free Shipping over £50",
+        "desc2": "",
+        "img3": "shopify:\/\/shop_images\/30_Nights_Free_Trial.png",
+        "title3": "Free Returns",
+        "desc3": "",
+        "img4": "shopify:\/\/shop_images\/Secure_Payment.png",
+        "title4": "Buy Now Pay Later",
+        "desc4": "",
+        "img5": "shopify:\/\/shop_images\/Hypoallergenic_947e9807-e79c-4436-8320-0e6166cbdec9.png",
+        "title5": "Long Fiber Cotton.  No Pilling Less Fading.",
+        "desc5": "",
+        "img6": "shopify:\/\/shop_images\/100_Natural_Cotton_75cb0008-f808-492a-a025-6922f1e51755.png",
+        "title6": "All Natural Materials",
+        "desc6": "",
+        "img7": "shopify:\/\/shop_images\/low-climate-impact_572dfa2d-6ef7-43fb-8483-de1209a8cfc8.png",
+        "title7": "Zero Chemicals, No Harmful Substances",
+        "desc7": "",
+        "collection": "discover-ocoza",
+        "products_to_show": 4,
+        "show_view_all": false,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": false,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "16566716457111d05d": {
+      "type": "multicolumn",
+      "blocks": {
+        "16566716455a37600d-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Latest_Trustpilot.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "https:\/\/www.trustpilot.com\/review\/ocoza.com"
+          }
+        }
+      },
+      "block_order": [
+        "16566716455a37600d-1"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "https:\/\/www.trustpilot.com\/review\/ocoza.com",
+        "swipe_on_mobile": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You May Also Like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "1641228583b5b147e6": {
+      "type": "apps",
+      "blocks": {
+        "c3a665a9-8d1c-40fb-98d9-9a4e83c8d5f6": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "7e56dad4-fa14-4b26-a083-5be7d6fe66d4": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "c3a665a9-8d1c-40fb-98d9-9a4e83c8d5f6",
+        "7e56dad4-fa14-4b26-a083-5be7d6fe66d4"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "164374122141ed4786": {
+      "type": "threeItems",
+      "settings": {
+        "goster": "evet",
+        "imgbanner": "shopify:\/\/shop_images\/rsz_1gift_towel_resized.jpg",
+        "text1": "Order Now and Get Your Complimentary Personalized Monogram Face Towel",
+        "text2": "As our welcome gift as the tradition, we are presenting you with our most beloved personalized face towel with your initial monogrammed. Your very own fast-dry 100% long-staple Turkish cotton face   towel is also highly absorbent, durable and most importantly the softest on your skin.",
+        "img1": "shopify:\/\/shop_images\/rsz_final_detailed_initials.jpg",
+        "img2": "shopify:\/\/shop_images\/rsz_final_brand_detail.jpg",
+        "img3": "shopify:\/\/shop_images\/rsz_final_detailed_towel.jpg"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1638575617ba153af2",
+    "16566716457111d05d",
+    "product-recommendations",
+    "1641228583b5b147e6",
+    "164374122141ed4786"
+  ]
+}

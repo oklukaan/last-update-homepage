@@ -1,0 +1,57 @@
+<div class="{% if section.settings.include_margins %}page-width{% endif %}">
+  {%- for block in section.blocks -%}
+    {% render block %}
+  {%- endfor -%}
+</div>
+
+
+<style>
+
+.jdgm-carousel-title:after{
+      content: "";
+      display: inline-block;
+      width: 50px;
+      padding-top: 3px;
+      border-bottom:3px solid;
+      border-color:#E7AD99;
+      margin:0 auto;
+}
+.jdgm-carousel-title{
+  display:grid;
+  text-align:center;
+  text-transform:uppercase;
+  font-weight:bold;
+}
+.jdgm-carousel-title-and-link .jdgm-all-reviews-rating-wrapper span:first-child{
+  display:none !important;
+}
+  
+
+
+
+</style>
+{% schema %}
+{
+  "name": "t:sections.apps.name",
+  "tag": "section",
+  "class": "spaced-section",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "include_margins",
+      "default": true,
+      "label": "t:sections.apps.settings.include_margins.label"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "@app"
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.apps.presets.name"
+    }
+  ]
+}
+{% endschema %}
